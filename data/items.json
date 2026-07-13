@@ -1,0 +1,6676 @@
+{
+  "source": "tlidb.com",
+  "note": "fan wiki; robots Allow /; item names are game facts",
+  "count": 741,
+  "items": [
+    {
+      "configBaseId": 1001,
+      "name": {
+        "ko": "빛이 된 나방",
+        "en": "Sparks of Moth Fire"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 1003,
+      "name": {
+        "ko": "추락하는 별빛",
+        "en": "Fallen Starlight"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 1005,
+      "name": {
+        "ko": "신성의 일각",
+        "en": "A Corner of Divinity"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 1009,
+      "name": {
+        "ko": "우주의 균열",
+        "en": "Space Rift"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 1010,
+      "name": {
+        "ko": "신의 계보",
+        "en": "Pedigree of Gods"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 1011,
+      "name": {
+        "ko": "별들의 고향",
+        "en": "Residence of Stars"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 1012,
+      "name": {
+        "ko": "들불 번지는 순간",
+        "en": "When Sparks Set the Prairie Ablaze"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 5140,
+      "name": {
+        "ko": "추억의 파편",
+        "en": "Memory Scrap"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 5201,
+      "name": {
+        "ko": "신격의 조각",
+        "en": "Divinity Fragment"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 5210,
+      "name": {
+        "ko": "신력 휘석",
+        "en": "Divinity Stone"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 5240,
+      "name": {
+        "ko": "환원의 쐐기",
+        "en": "Unifying Wedge"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7001,
+      "name": {
+        "ko": "점프 공격",
+        "en": "Leap Attack"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7002,
+      "name": {
+        "ko": "아이스 샷",
+        "en": "Ice Shot"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7006,
+      "name": {
+        "ko": "엠버 해머",
+        "en": "Hammer of Ash"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7007,
+      "name": {
+        "ko": "멀티 매직 애로우",
+        "en": "Chromatic Shot"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7008,
+      "name": {
+        "ko": "부활의 함성",
+        "en": "Resurrection Warcry"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7018,
+      "name": {
+        "ko": "휠윈드",
+        "en": "Whirlwind"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7019,
+      "name": {
+        "ko": "집중 베기",
+        "en": "Focused Slash"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7020,
+      "name": {
+        "ko": "스톤 스킨",
+        "en": "Stoneskin"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7021,
+      "name": {
+        "ko": "썬더 클라우드",
+        "en": "Thundercloud"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7025,
+      "name": {
+        "ko": "점멸",
+        "en": "Blink"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7027,
+      "name": {
+        "ko": "포격",
+        "en": "Bombard"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7028,
+      "name": {
+        "ko": "어둠의 탄환",
+        "en": "Shadow Shot"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7029,
+      "name": {
+        "ko": "어둠의 늪",
+        "en": "Shadow Swamp"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7030,
+      "name": {
+        "ko": "표식 화살비",
+        "en": "Marked Rain of Arrows"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7031,
+      "name": {
+        "ko": "황소의 분노",
+        "en": "Bull's Rage"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7032,
+      "name": {
+        "ko": "어둠의 돌격",
+        "en": "Shadow Dash"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7033,
+      "name": {
+        "ko": "프로스트 쉴드",
+        "en": "Frost Shield"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7034,
+      "name": {
+        "ko": "로켓 점프",
+        "en": "Rocket Jump"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7035,
+      "name": {
+        "ko": "스플릿 파이어볼",
+        "en": "Split Firebolt"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7036,
+      "name": {
+        "ko": "블리자드",
+        "en": "Blizzard"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7039,
+      "name": {
+        "ko": "흐릿한 움직임",
+        "en": "Obscure"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7040,
+      "name": {
+        "ko": "MP 급증",
+        "en": "Mana Boil"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7041,
+      "name": {
+        "ko": "프로스트 임팩트",
+        "en": "Frost Impact"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7042,
+      "name": {
+        "ko": "플레임 패스",
+        "en": "Path of Flames"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7043,
+      "name": {
+        "ko": "폭주의 칼날",
+        "en": "Berserking Blade"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7044,
+      "name": {
+        "ko": "에너지 펀치",
+        "en": "Charged Pummel"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7047,
+      "name": {
+        "ko": "번개 사슬",
+        "en": "Chain Lightning"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7048,
+      "name": {
+        "ko": "더블 스파이크",
+        "en": "Double Thrusts"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7049,
+      "name": {
+        "ko": "정신 지배",
+        "en": "Mind Control"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7050,
+      "name": {
+        "ko": "아이스링",
+        "en": "Ring of Ice"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7051,
+      "name": {
+        "ko": "분열 사격",
+        "en": "Split Shot"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7052,
+      "name": {
+        "ko": "플레임 슬래시",
+        "en": "Flame Slash"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7053,
+      "name": {
+        "ko": "아이스 블레이드",
+        "en": "Icy Blade"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7054,
+      "name": {
+        "ko": "프로스트 스파이크",
+        "en": "Frost Spike"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7055,
+      "name": {
+        "ko": "윌트 스파이크",
+        "en": "Wilt Spike"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7056,
+      "name": {
+        "ko": "라이트닝 샷",
+        "en": "Lightning Shot"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7057,
+      "name": {
+        "ko": "부식탄",
+        "en": "Corrosive Shot"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7058,
+      "name": {
+        "ko": "연소 사격",
+        "en": "Burning Shot"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7059,
+      "name": {
+        "ko": "전광탄",
+        "en": "Electrifying Shot"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7060,
+      "name": {
+        "ko": "침식 투척",
+        "en": "Corrosive Throw"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7062,
+      "name": {
+        "ko": "연쇄 탄막",
+        "en": "Inexhaustible Barrage"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7063,
+      "name": {
+        "ko": "화살비",
+        "en": "Rain of Arrows"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7064,
+      "name": {
+        "ko": "무자비한 돌격",
+        "en": "Savage Charge"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7065,
+      "name": {
+        "ko": "얼음 송곳",
+        "en": "Ice Lances"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7066,
+      "name": {
+        "ko": "일렉트릭 스파크",
+        "en": "Sparkle"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7067,
+      "name": {
+        "ko": "서라운드 블레이드",
+        "en": "Ring of Blades"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7068,
+      "name": {
+        "ko": "플레임 코어",
+        "en": "Flame Core"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7069,
+      "name": {
+        "ko": "라이트닝 스톰",
+        "en": "Lightning Storm"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7070,
+      "name": {
+        "ko": "플레임 제트",
+        "en": "Flame Jet"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7071,
+      "name": {
+        "ko": "프로스트 그라운드",
+        "en": "Frost Terra"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7072,
+      "name": {
+        "ko": "작열 광선",
+        "en": "Scorching Beam"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7073,
+      "name": {
+        "ko": "부식 광선",
+        "en": "Wilting Beam"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7074,
+      "name": {
+        "ko": "프로스트 트랜스퍼",
+        "en": "Frigid Transmission"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7078,
+      "name": {
+        "ko": "강제 가동",
+        "en": "Forced Start"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7079,
+      "name": {
+        "ko": "불의 방패",
+        "en": "Aegis of Fire"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7080,
+      "name": {
+        "ko": "고통의 지연",
+        "en": "Delayed Pain"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7081,
+      "name": {
+        "ko": "방어 버퍼",
+        "en": "Defensive Buffer"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7082,
+      "name": {
+        "ko": "스위프트 윈드",
+        "en": "Brisk Wind"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7084,
+      "name": {
+        "ko": "분노의 광풍",
+        "en": "Burst of Anger"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7086,
+      "name": {
+        "ko": "작열 웨이브",
+        "en": "Scorching Pulse"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7087,
+      "name": {
+        "ko": "포커스",
+        "en": "Fixate"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7088,
+      "name": {
+        "ko": "비밀의 기원",
+        "en": "Secret Origin Unleash"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7089,
+      "name": {
+        "ko": "조준",
+        "en": "Aim"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7090,
+      "name": {
+        "ko": "질주 이슬",
+        "en": "Swiftness Dew"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7091,
+      "name": {
+        "ko": "대지 진동",
+        "en": "Groundshaker"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7092,
+      "name": {
+        "ko": "몰두 사격",
+        "en": "Focused Shot"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7093,
+      "name": {
+        "ko": "폭염술",
+        "en": "Fire Burst"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7094,
+      "name": {
+        "ko": "썬더볼 과부하",
+        "en": "Thunderbolt Overload"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7101,
+      "name": {
+        "ko": "맹렬",
+        "en": "Fearless"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7102,
+      "name": {
+        "ko": "무기 증폭",
+        "en": "Weapon Amplification"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7103,
+      "name": {
+        "ko": "재생",
+        "en": "Rejuvenation"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7104,
+      "name": {
+        "ko": "전기 에너지 전환",
+        "en": "Electric Conversion"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7105,
+      "name": {
+        "ko": "혹한지대",
+        "en": "Frigid Domain"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7106,
+      "name": {
+        "ko": "민첩",
+        "en": "Nimbleness"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7107,
+      "name": {
+        "ko": "주술 증폭",
+        "en": "Spell Amplification"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7108,
+      "name": {
+        "ko": "에너지 장벽",
+        "en": "Energy Fortress"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7109,
+      "name": {
+        "ko": "마법의 근원",
+        "en": "Magical Source"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7110,
+      "name": {
+        "ko": "조준 투사",
+        "en": "Precise Projectiles"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7111,
+      "name": {
+        "ko": "원소 저항",
+        "en": "Elemental Resistance"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7112,
+      "name": {
+        "ko": "질주",
+        "en": "Swiftness"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7113,
+      "name": {
+        "ko": "깊은 고통",
+        "en": "Deep Pain"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7114,
+      "name": {
+        "ko": "부식 증폭",
+        "en": "Erosion Amplification"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7115,
+      "name": {
+        "ko": "화염 충전",
+        "en": "Charged Flames"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7116,
+      "name": {
+        "ko": "견고",
+        "en": "Steadfast"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7120,
+      "name": {
+        "ko": "맹렬한 함성",
+        "en": "Fearless Warcry"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7121,
+      "name": {
+        "ko": "분노의 함성",
+        "en": "Raging Warcry"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7122,
+      "name": {
+        "ko": "돌격의 함성",
+        "en": "Charging Warcry"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7123,
+      "name": {
+        "ko": "블랙홀",
+        "en": "Black Hole"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7125,
+      "name": {
+        "ko": "머신 가드 소환",
+        "en": "Summon Machine Guard"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7126,
+      "name": {
+        "ko": "스파이더 탱커 소환",
+        "en": "Summon Spider Tank"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7127,
+      "name": {
+        "ko": "화염의 영혼 소환",
+        "en": "Summon Fire Magus"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7128,
+      "name": {
+        "ko": "서리의 영혼 소환",
+        "en": "Summon Frost Magus"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7129,
+      "name": {
+        "ko": "번개의 영혼 소환",
+        "en": "Summon Thunder Magus"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7130,
+      "name": {
+        "ko": "위축",
+        "en": "Timid"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7131,
+      "name": {
+        "ko": "감전",
+        "en": "Electrocute"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7132,
+      "name": {
+        "ko": "대미지 취약",
+        "en": "Vulnerability"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7133,
+      "name": {
+        "ko": "작열",
+        "en": "Scorch"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7134,
+      "name": {
+        "ko": "블라인드",
+        "en": "Dazzled"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7135,
+      "name": {
+        "ko": "고통의 올가미",
+        "en": "Entangled Pain"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7136,
+      "name": {
+        "ko": "본 프로스트",
+        "en": "Biting Cold"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7137,
+      "name": {
+        "ko": "사악한 침식",
+        "en": "Corruption"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7138,
+      "name": {
+        "ko": "서슬의 주입",
+        "en": "Acuteness Focus"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7139,
+      "name": {
+        "ko": "부식의 주입",
+        "en": "Corrosion Focus"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7140,
+      "name": {
+        "ko": "냉기의 주입",
+        "en": "Ice Focus"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7141,
+      "name": {
+        "ko": "번개의 주입",
+        "en": "Thunder Focus"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7142,
+      "name": {
+        "ko": "화염의 주입",
+        "en": "Flame Focus"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7143,
+      "name": {
+        "ko": "생명 물약",
+        "en": "Life Tonic"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7144,
+      "name": {
+        "ko": "마력 물약",
+        "en": "Mana Tonic"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7145,
+      "name": {
+        "ko": "원소 파동",
+        "en": "Elemental Shock"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7146,
+      "name": {
+        "ko": "기계의 행진",
+        "en": "Machine Army"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7147,
+      "name": {
+        "ko": "기원",
+        "en": "Prayer"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7149,
+      "name": {
+        "ko": "어둠의 문",
+        "en": "Dark Gate"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7153,
+      "name": {
+        "ko": "번개의 속박",
+        "en": "Thunderlight Bond"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7154,
+      "name": {
+        "ko": "시크릿 서클",
+        "en": "Arcane Circle"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7155,
+      "name": {
+        "ko": "서리의 속박",
+        "en": "Ice Bond"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7156,
+      "name": {
+        "ko": "갈증 이슬",
+        "en": "Thirst Dew"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7157,
+      "name": {
+        "ko": "진형 조정",
+        "en": "Reform"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7158,
+      "name": {
+        "ko": "집중 장전",
+        "en": "Centralized Loading"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7159,
+      "name": {
+        "ko": "플래쉬 보우",
+        "en": "Blink Arrow"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7160,
+      "name": {
+        "ko": "섀도우 급습",
+        "en": "Swift Shadow Raid"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7161,
+      "name": {
+        "ko": "절망의 고리",
+        "en": "Safeguard Ring"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7167,
+      "name": {
+        "ko": "얼음 광선",
+        "en": "Icebound Beam"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7168,
+      "name": {
+        "ko": "나선 공격",
+        "en": "Spiral Strike"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7169,
+      "name": {
+        "ko": "복합 물약",
+        "en": "Compound Tonic"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7170,
+      "name": {
+        "ko": "문 스트라이크",
+        "en": "Moon Strike"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7172,
+      "name": {
+        "ko": "휘몰아치는 돌풍",
+        "en": "Howling Gale"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7173,
+      "name": {
+        "ko": "작열탄 관통",
+        "en": "Blazing Bullet"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7174,
+      "name": {
+        "ko": "썬더 슬래시",
+        "en": "Thunder Slash"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7175,
+      "name": {
+        "ko": "라이트닝 스파이크",
+        "en": "Thunder Spike"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7177,
+      "name": {
+        "ko": "사악한 유령 출몰",
+        "en": "Haunting Abomination"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7178,
+      "name": {
+        "ko": "프로스트 코어",
+        "en": "Frost Core"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7179,
+      "name": {
+        "ko": "썬더 코어",
+        "en": "Thunder Core"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7180,
+      "name": {
+        "ko": "칼날의 영령",
+        "en": "Ghost Blade Einherjar"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7181,
+      "name": {
+        "ko": "화살의 영령",
+        "en": "Arrow Einherjar"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7182,
+      "name": {
+        "ko": "플라이 팬텀 소환",
+        "en": "Summon Grim Phantom"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7183,
+      "name": {
+        "ko": "압도적 스매시",
+        "en": "Overpower"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7184,
+      "name": {
+        "ko": "진격의 주먹",
+        "en": "Onslaught Punch"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7185,
+      "name": {
+        "ko": "블레이드 샷",
+        "en": "Aimed Shot"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7186,
+      "name": {
+        "ko": "맹렬한 불길",
+        "en": "Blazing Dance"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7187,
+      "name": {
+        "ko": "플레임 스핀",
+        "en": "Blazing Spin"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7188,
+      "name": {
+        "ko": "화염 분출",
+        "en": "Blazing Incineration"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7189,
+      "name": {
+        "ko": "화마 승천",
+        "en": "Molten Rising"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7190,
+      "name": {
+        "ko": "빙하의 물결",
+        "en": "Glacier Ripples"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7191,
+      "name": {
+        "ko": "프리징 릴리즈",
+        "en": "Frost Release"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7192,
+      "name": {
+        "ko": "얼음 조소",
+        "en": "Permafrost Cast"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7193,
+      "name": {
+        "ko": "땅을 흔드는 얼음폭풍",
+        "en": "Ice Earthshaker"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7194,
+      "name": {
+        "ko": "번개 유성",
+        "en": "Lightning Star"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7195,
+      "name": {
+        "ko": "라이트닝 애로우",
+        "en": "Thunderlight Arrow"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7196,
+      "name": {
+        "ko": "뇌운의 격동",
+        "en": "Thundercloud Surge"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7197,
+      "name": {
+        "ko": "천둥 번개",
+        "en": "Lightning Surge"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7198,
+      "name": {
+        "ko": "고성능 광속",
+        "en": "High Energy Beam"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7199,
+      "name": {
+        "ko": "파멸의 페이저",
+        "en": "Destructive Light Cannon"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7200,
+      "name": {
+        "ko": "선회하는 칼날",
+        "en": "Whirlwind Blade"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7201,
+      "name": {
+        "ko": "천둥 광선",
+        "en": "Lightning Beam"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7202,
+      "name": {
+        "ko": "신법환신",
+        "en": "Speed Phantom"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7203,
+      "name": {
+        "ko": "사격 지원",
+        "en": "Archery Bond"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7204,
+      "name": {
+        "ko": "생명의 자양분",
+        "en": "Nourishment of Life"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7205,
+      "name": {
+        "ko": "눈부신 꽃",
+        "en": "Dazzling Bloom"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7206,
+      "name": {
+        "ko": "추격자의 별빛",
+        "en": "Star Stalker"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7207,
+      "name": {
+        "ko": "조화의 공간",
+        "en": "Harmonious Field"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7208,
+      "name": {
+        "ko": "악의의 족쇄",
+        "en": "Shackles of Malice"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7209,
+      "name": {
+        "ko": "반석의 영혼 소환",
+        "en": "Summon Rock Magus"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7210,
+      "name": {
+        "ko": "균열 공격",
+        "en": "Shattered Stone"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7211,
+      "name": {
+        "ko": "황금 파편",
+        "en": "Gold Rush"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7212,
+      "name": {
+        "ko": "수평 난사",
+        "en": "Rock Blast"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7213,
+      "name": {
+        "ko": "바위의 위압",
+        "en": "Towering Mountains"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7214,
+      "name": {
+        "ko": "부패의 영혼 소환",
+        "en": "Summon Erosion Magus"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7215,
+      "name": {
+        "ko": "진흙투성이",
+        "en": "Scattered Mud"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7216,
+      "name": {
+        "ko": "몰락의 귀환",
+        "en": "Withering Payback"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7217,
+      "name": {
+        "ko": "시든 풀무리",
+        "en": "Bleak Grass"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7218,
+      "name": {
+        "ko": "가시밭길",
+        "en": "World of Thorns"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7219,
+      "name": {
+        "ko": "과격한 소집",
+        "en": "Radical Order"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7220,
+      "name": {
+        "ko": "포악",
+        "en": "Cruelty"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7221,
+      "name": {
+        "ko": "영역 확장",
+        "en": "Domain Expansion"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7222,
+      "name": {
+        "ko": "떠오르는 샛별",
+        "en": "Rising Edge"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7223,
+      "name": {
+        "ko": "문 슬래시",
+        "en": "Crescent Slash"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7224,
+      "name": {
+        "ko": "플레임 서펀트",
+        "en": "Serpent Beam"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7225,
+      "name": {
+        "ko": "윈드 슬래시",
+        "en": "Gale Slash"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7226,
+      "name": {
+        "ko": "익스플로딩 슬래시",
+        "en": "Spectral Slash"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7227,
+      "name": {
+        "ko": "리벤지",
+        "en": "Vendetta"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7228,
+      "name": {
+        "ko": "파괴의 함성",
+        "en": "Shockwave Warcry"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7229,
+      "name": {
+        "ko": "엔드리스 리벤지",
+        "en": "Endless Vendetta"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7230,
+      "name": {
+        "ko": "이상 증폭",
+        "en": "Ailment Amplification"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7252,
+      "name": {
+        "ko": "서리발톱",
+        "en": "Frostclaw"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7253,
+      "name": {
+        "ko": "불꽃새",
+        "en": "Firebird"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7255,
+      "name": {
+        "ko": "붕산 일격",
+        "en": "Earthshatter"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7256,
+      "name": {
+        "ko": "디스엠버 레인",
+        "en": "Aember Rain"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7257,
+      "name": {
+        "ko": "회전 화염탄",
+        "en": "Molten Barrage"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7258,
+      "name": {
+        "ko": "집중 사격",
+        "en": "All-Out Volley"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7259,
+      "name": {
+        "ko": "낙석술",
+        "en": "Rockfall"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7260,
+      "name": {
+        "ko": "번개 소환",
+        "en": "Thunderfall"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7261,
+      "name": {
+        "ko": "동력 스파이크",
+        "en": "Kinetic Thrust"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7262,
+      "name": {
+        "ko": "응축 스매시",
+        "en": "Groundslam"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7263,
+      "name": {
+        "ko": "고출력 강타",
+        "en": "Overstrike"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7264,
+      "name": {
+        "ko": "고온 압살",
+        "en": "Searing Crush"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7265,
+      "name": {
+        "ko": "휩쓸기",
+        "en": "Sweep"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7266,
+      "name": {
+        "ko": "깊은 뿌리",
+        "en": "Rootsurge"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7267,
+      "name": {
+        "ko": "점멸 공격",
+        "en": "Blitz Strike"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7268,
+      "name": {
+        "ko": "폭발 해머",
+        "en": "Burst Hammer"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7269,
+      "name": {
+        "ko": "폭탄 투척",
+        "en": "Firebomb"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7270,
+      "name": {
+        "ko": "방화",
+        "en": "Pyromania"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7271,
+      "name": {
+        "ko": "추억의 그림자",
+        "en": "Flickering Shadow"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7272,
+      "name": {
+        "ko": "함락의 죄",
+        "en": "Sin of the Fallen"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7273,
+      "name": {
+        "ko": "영광의 칼날",
+        "en": "Blade of Glory"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7274,
+      "name": {
+        "ko": "신성한 서약",
+        "en": "High Court Covenant"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7275,
+      "name": {
+        "ko": "폭군의 참격",
+        "en": "Ravaging Slash"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7276,
+      "name": {
+        "ko": "황금 포탄",
+        "en": "Auric Shot"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7278,
+      "name": {
+        "ko": "모래자갈 투척",
+        "en": "Gravelshot"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7279,
+      "name": {
+        "ko": "맹염의 천벌",
+        "en": "Divine Judgment"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7280,
+      "name": {
+        "ko": "심판의 창",
+        "en": "Javelin of Judgment"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7281,
+      "name": {
+        "ko": "가시 투척",
+        "en": "Spikeburst"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7282,
+      "name": {
+        "ko": "꼬리 휩쓸기",
+        "en": "Tailsweep"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7283,
+      "name": {
+        "ko": "스파이크 슬래시",
+        "en": "Impaling Thrust"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7284,
+      "name": {
+        "ko": "더블 블레이드",
+        "en": "Twinstrike"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7285,
+      "name": {
+        "ko": "암류",
+        "en": "Undercurrent"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7286,
+      "name": {
+        "ko": "저항 이슬",
+        "en": "Resistance Dew"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7287,
+      "name": {
+        "ko": "견고 이슬",
+        "en": "Steadfast Dew"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7288,
+      "name": {
+        "ko": "민첩 이슬",
+        "en": "Nimbleness Dew"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7289,
+      "name": {
+        "ko": "인내 이슬",
+        "en": "Tenacity Dew"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7290,
+      "name": {
+        "ko": "거북 껍데기 에센스",
+        "en": "Tortoise Shell Distillate"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7291,
+      "name": {
+        "ko": "전갈 독침 에센스",
+        "en": "Scorpion Stinger Distillate"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7292,
+      "name": {
+        "ko": "부식두꺼비 에센스",
+        "en": "Putrid Toad Distillate"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7293,
+      "name": {
+        "ko": "초석버섯 에센스",
+        "en": "Saltpeter Mushroom Distillate"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7294,
+      "name": {
+        "ko": "불도마뱀 에센스",
+        "en": "Fire Lizard Distillate"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7295,
+      "name": {
+        "ko": "흰코뿔소 에센스",
+        "en": "White Rhino Distillate"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7296,
+      "name": {
+        "ko": "뇌격나무 에센스",
+        "en": "Thunder Wood Distillate"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7317,
+      "name": {
+        "ko": "불길",
+        "en": "Ominous"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7401,
+      "name": {
+        "ko": "다중 투사체",
+        "en": "Multiple Projectiles"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7405,
+      "name": {
+        "ko": "연속 공격",
+        "en": "Multistrike"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7406,
+      "name": {
+        "ko": "분열 투사체",
+        "en": "Projectile Split"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7407,
+      "name": {
+        "ko": "범위 증가",
+        "en": "Increased Area"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7408,
+      "name": {
+        "ko": "근접전 넉백",
+        "en": "Melee Knockback"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7410,
+      "name": {
+        "ko": "초과부하",
+        "en": "Overload"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7411,
+      "name": {
+        "ko": "파열의 칼날",
+        "en": "Tendonslicer"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7412,
+      "name": {
+        "ko": "칼바람 빙결",
+        "en": "Glacial Freeze"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7413,
+      "name": {
+        "ko": "점화 보조",
+        "en": "Additional Ignite"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7414,
+      "name": {
+        "ko": "고압전기",
+        "en": "High Voltage"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7415,
+      "name": {
+        "ko": "빠른 위치 이동",
+        "en": "Quick Mobility"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7416,
+      "name": {
+        "ko": "지속 시간 연장",
+        "en": "Extended Duration"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7417,
+      "name": {
+        "ko": "주술 집중",
+        "en": "Spell Concentration"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7418,
+      "name": {
+        "ko": "부식 대미지 추가",
+        "en": "Added Erosion Damage"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7419,
+      "name": {
+        "ko": "크리티컬 수치 증가",
+        "en": "Critical Strike Rating Increase"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7420,
+      "name": {
+        "ko": "크리티컬 대미지 증가",
+        "en": "Critical Strike Damage Increase"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7421,
+      "name": {
+        "ko": "물리-화염 전환",
+        "en": "Physical to Fire"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7422,
+      "name": {
+        "ko": "번개-냉기 전환",
+        "en": "Lightning to Cold"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7423,
+      "name": {
+        "ko": "깊은 상처",
+        "en": "Deep Wounds"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7424,
+      "name": {
+        "ko": "부식 강화",
+        "en": "Improved Corrosion"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7426,
+      "name": {
+        "ko": "둔화",
+        "en": "Passivation"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7427,
+      "name": {
+        "ko": "속결",
+        "en": "Quick Decision"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7428,
+      "name": {
+        "ko": "MP 소모 전환",
+        "en": "Cost Conversion"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7429,
+      "name": {
+        "ko": "바운스",
+        "en": "Jump"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7430,
+      "name": {
+        "ko": "지속 시간 단축",
+        "en": "Shortened Duration"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7431,
+      "name": {
+        "ko": "화염 대미지 추가",
+        "en": "Added Fire Damage"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7432,
+      "name": {
+        "ko": "냉기 대미지 추가",
+        "en": "Added Cold Damage"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7433,
+      "name": {
+        "ko": "번개 대미지 추가",
+        "en": "Added Lightning Damage"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7434,
+      "name": {
+        "ko": "주술 제어",
+        "en": "Control Spell"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7435,
+      "name": {
+        "ko": "원소 융합",
+        "en": "Elemental Fusion"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7439,
+      "name": {
+        "ko": "퓨리어스",
+        "en": "Recklessness"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7440,
+      "name": {
+        "ko": "감속 투사",
+        "en": "Slow Projectile"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7441,
+      "name": {
+        "ko": "원한",
+        "en": "Grudge"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7442,
+      "name": {
+        "ko": "투사체 관통",
+        "en": "Projectile Penetration"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7443,
+      "name": {
+        "ko": "압살",
+        "en": "Steamroll"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7444,
+      "name": {
+        "ko": "심화 보조",
+        "en": "Cataclysm"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7445,
+      "name": {
+        "ko": "사냥 템포",
+        "en": "Hunting Tempo"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7447,
+      "name": {
+        "ko": "멀티 가드",
+        "en": "Multifaceted Guard"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7448,
+      "name": {
+        "ko": "보초병 개조",
+        "en": "Sentry Modification"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7449,
+      "name": {
+        "ko": "화염 폭발",
+        "en": "Fire Explosion"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7450,
+      "name": {
+        "ko": "스타폴 샷",
+        "en": "Nova Shot"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7451,
+      "name": {
+        "ko": "정교한 공격",
+        "en": "Precision Strike"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7452,
+      "name": {
+        "ko": "멀티 팬텀",
+        "en": "Haunt"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7454,
+      "name": {
+        "ko": "수호",
+        "en": "Guard"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7455,
+      "name": {
+        "ko": "빠른 채널링 보조",
+        "en": "Channel Preparation"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7456,
+      "name": {
+        "ko": "분노의 슬래시",
+        "en": "Raging Slash"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7458,
+      "name": {
+        "ko": "빠른 회복",
+        "en": "Quick Return"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7463,
+      "name": {
+        "ko": "봉인 제어",
+        "en": "Restrain"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7464,
+      "name": {
+        "ko": "공격 몰두",
+        "en": "Attack Focus"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7469,
+      "name": {
+        "ko": "질풍 투사",
+        "en": "Wind Projectiles"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7472,
+      "name": {
+        "ko": "고통의 심화",
+        "en": "Pain Amplification"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7473,
+      "name": {
+        "ko": "실명",
+        "en": "Blind"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7474,
+      "name": {
+        "ko": "전기 충격",
+        "en": "Electric Punishment"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7475,
+      "name": {
+        "ko": "이상 종결",
+        "en": "Ailment Termination"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7476,
+      "name": {
+        "ko": "이상 강화",
+        "en": "Enhanced Ailment"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7477,
+      "name": {
+        "ko": "물리 대미지 추가",
+        "en": "Added Physical Damage"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7478,
+      "name": {
+        "ko": "쿨타임 가속",
+        "en": "Cooldown Reduction"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7479,
+      "name": {
+        "ko": "응급 회복",
+        "en": "Emergency restoration"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7480,
+      "name": {
+        "ko": "순간 회복",
+        "en": "Instant restoration"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7485,
+      "name": {
+        "ko": "지면 분열",
+        "en": "Ground Divide"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7487,
+      "name": {
+        "ko": "광선 분산",
+        "en": "Scattershot Beam"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7488,
+      "name": {
+        "ko": "광선 집중",
+        "en": "Focused Beam"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7489,
+      "name": {
+        "ko": "굴절 프리즘",
+        "en": "Refracted Prism"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7490,
+      "name": {
+        "ko": "소환체 대미지",
+        "en": "Servant Damage"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7491,
+      "name": {
+        "ko": "소환체 HP",
+        "en": "Servant Life"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7494,
+      "name": {
+        "ko": "원소 양성",
+        "en": "Elemental Duo"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7495,
+      "name": {
+        "ko": "광란의 군대",
+        "en": "Maniacal Army"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7496,
+      "name": {
+        "ko": "기계 개조",
+        "en": "Mechanical Modification"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7497,
+      "name": {
+        "ko": "습격 명령",
+        "en": "Assault Command"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7498,
+      "name": {
+        "ko": "방어 자세",
+        "en": "Defense Form"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7504,
+      "name": {
+        "ko": "쾌전",
+        "en": "Well-Fought Battle"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7505,
+      "name": {
+        "ko": "미약한 부활",
+        "en": "Fragile Resurrection"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7507,
+      "name": {
+        "ko": "잔류 약성",
+        "en": "Residues"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7509,
+      "name": {
+        "ko": "베르세르크",
+        "en": "All In"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7510,
+      "name": {
+        "ko": "아머의 존재",
+        "en": "Iron Fortification"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7511,
+      "name": {
+        "ko": "긴급 회피",
+        "en": "Emergency Avoidance"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7512,
+      "name": {
+        "ko": "집중된 함성",
+        "en": "Concentration Warcry"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7513,
+      "name": {
+        "ko": "사자후",
+        "en": "Lion's Roars"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7514,
+      "name": {
+        "ko": "간헐적 폭발",
+        "en": "Periodic Burst"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7515,
+      "name": {
+        "ko": "악의의 영역",
+        "en": "Terrain of Malice"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7516,
+      "name": {
+        "ko": "전기 과부하",
+        "en": "Electric Overload"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7517,
+      "name": {
+        "ko": "원소 충격",
+        "en": "Elemental Impact"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7519,
+      "name": {
+        "ko": "융단 폭격",
+        "en": "Carpet Bombardment"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7521,
+      "name": {
+        "ko": "효과 강화",
+        "en": "Mass Effect"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7522,
+      "name": {
+        "ko": "삼엄한 방어",
+        "en": "Defense Layers"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7525,
+      "name": {
+        "ko": "주입 강화",
+        "en": "Focus Acceleration"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7526,
+      "name": {
+        "ko": "주입 증강",
+        "en": "Focus Buff"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7528,
+      "name": {
+        "ko": "봉인 전환",
+        "en": "Seal Conversion"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7529,
+      "name": {
+        "ko": "영능의 폭발",
+        "en": "Psychic Burst"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7530,
+      "name": {
+        "ko": "고속 질주",
+        "en": "Magic Dash"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7531,
+      "name": {
+        "ko": "솟구치는 영능",
+        "en": "Psychic Surge"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7532,
+      "name": {
+        "ko": "야만적 성장",
+        "en": "Savage Growth"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7533,
+      "name": {
+        "ko": "풍작의 순간",
+        "en": "Harvest Time"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7534,
+      "name": {
+        "ko": "스탠바이",
+        "en": "Preparation"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7603,
+      "name": {
+        "ko": "차징",
+        "en": "Charge"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7605,
+      "name": {
+        "ko": "격투가의 포효",
+        "en": "Gladiator's Roar"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7606,
+      "name": {
+        "ko": "오라 증폭",
+        "en": "Aura Amplification"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7612,
+      "name": {
+        "ko": "마령의 친구",
+        "en": "Friend of Spirit Magi"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7613,
+      "name": {
+        "ko": "세이프 가드",
+        "en": "Protection Field"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7614,
+      "name": {
+        "ko": "신진대사 촉진",
+        "en": "Hyper Metabolism"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7615,
+      "name": {
+        "ko": "구급",
+        "en": "Emergency Aid"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7616,
+      "name": {
+        "ko": "약성 축적",
+        "en": "Medicinal Buildup"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7618,
+      "name": {
+        "ko": "은둔",
+        "en": "Reclusion"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7620,
+      "name": {
+        "ko": "의지력",
+        "en": "Willpower"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7621,
+      "name": {
+        "ko": "호흡 조율",
+        "en": "Recuperation"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7622,
+      "name": {
+        "ko": "주술 부착",
+        "en": "Spell Tangle"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 7623,
+      "name": {
+        "ko": "다중 부착",
+        "en": "Manifold Entanglement"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8300,
+      "name": {
+        "ko": "정밀 맹렬",
+        "en": "Precise: Fearless"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8301,
+      "name": {
+        "ko": "정밀 무기 증폭",
+        "en": "Precise: Weapon Amplification"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8302,
+      "name": {
+        "ko": "정밀 재생",
+        "en": "Precise: Rejuvenation"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8303,
+      "name": {
+        "ko": "정밀 전기 에너지 전환",
+        "en": "Precise: Electric Conversion"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8304,
+      "name": {
+        "ko": "정밀 혹한지대",
+        "en": "Precise: Frigid Domain"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8305,
+      "name": {
+        "ko": "정밀 민첩",
+        "en": "Precise: Nimbleness"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8306,
+      "name": {
+        "ko": "정밀 주술 증폭",
+        "en": "Precise: Spell Amplification"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8307,
+      "name": {
+        "ko": "정밀 에너지 장벽",
+        "en": "Precise: Energy Fortress"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8308,
+      "name": {
+        "ko": "정밀 마법의 근원",
+        "en": "Precise: Magical Source"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8309,
+      "name": {
+        "ko": "정밀 조준 투사",
+        "en": "Precise: Precise Projectiles"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8310,
+      "name": {
+        "ko": "정밀 원소 저항",
+        "en": "Precise: Elemental Resistance"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8311,
+      "name": {
+        "ko": "정밀 질주",
+        "en": "Precise: Swiftness"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8312,
+      "name": {
+        "ko": "정밀 깊은 고통",
+        "en": "Precise: Deep Pain"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8313,
+      "name": {
+        "ko": "정밀 부식 증폭",
+        "en": "Precise: Erosion Amplification"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8314,
+      "name": {
+        "ko": "정밀 화염 에너지 충전",
+        "en": "Precise: Charged Flames"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8315,
+      "name": {
+        "ko": "정밀 견고",
+        "en": "Precise: Steadfast"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8316,
+      "name": {
+        "ko": "정밀 서슬의 주입",
+        "en": "Precise: Acuteness Focus"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8317,
+      "name": {
+        "ko": "정밀 부식의 주입",
+        "en": "Precise: Corrosion Focus"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8318,
+      "name": {
+        "ko": "정밀 냉기의 주입",
+        "en": "Precise: Ice Focus"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8319,
+      "name": {
+        "ko": "정밀 번개의 주입",
+        "en": "Precise: Thunder Focus"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8320,
+      "name": {
+        "ko": "정밀 화염의 주입",
+        "en": "Precise: Flame Focus"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8328,
+      "name": {
+        "ko": "정밀 과격한 소집",
+        "en": "Precise: Radical Order"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8329,
+      "name": {
+        "ko": "정밀 포악",
+        "en": "Precise: Cruelty"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8330,
+      "name": {
+        "ko": "정밀 영역 확장",
+        "en": "Precise: Domain Expansion"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8331,
+      "name": {
+        "ko": "정밀 이상 증폭",
+        "en": "Precise: Ailment Amplification"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8600,
+      "name": {
+        "ko": "정밀 봉인 전환",
+        "en": "Precise: Seal Conversion"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8601,
+      "name": {
+        "ko": "정밀 이타주의",
+        "en": "Precise: Selfless"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8602,
+      "name": {
+        "ko": "정밀 이기주의",
+        "en": "Precise: Selfishness"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8603,
+      "name": {
+        "ko": "정밀 일치단결",
+        "en": "Precise: Stand as One"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8604,
+      "name": {
+        "ko": "정밀 극기",
+        "en": "Precise: Disciplined"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8605,
+      "name": {
+        "ko": "정밀 혼신의 힘",
+        "en": "Precise: Concentrated"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8606,
+      "name": {
+        "ko": "정밀 강대강",
+        "en": "Precise: Malleable"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8607,
+      "name": {
+        "ko": "정밀 사람이 힘",
+        "en": "Precise: Safety in Numbers"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8608,
+      "name": {
+        "ko": "정밀 주입 증강",
+        "en": "Precise: Focus Buff"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8611,
+      "name": {
+        "ko": "정밀 슈퍼 파워",
+        "en": "Precise: Superpower"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8612,
+      "name": {
+        "ko": "정밀 마령의 친구",
+        "en": "Precise: Friend of Spirit Magi"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8613,
+      "name": {
+        "ko": "정밀 세이프 가드",
+        "en": "Precise: Protection Field"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8614,
+      "name": {
+        "ko": "정밀 봉인 제어",
+        "en": "Precise Restrain"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8615,
+      "name": {
+        "ko": "정밀 배합",
+        "en": "Precise: Harmony"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 8616,
+      "name": {
+        "ko": "정밀 정화",
+        "en": "Precise: Purify"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 100300,
+      "name": {
+        "ko": "최초의 불꽃 결정",
+        "en": "Flame Elementium"
+      },
+      "category": null,
+      "isCurrency": true
+    },
+    {
+      "configBaseId": 110101,
+      "name": {
+        "ko": "아르미니우스 단두대",
+        "en": "Arminius Guillotine"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110102,
+      "name": {
+        "ko": "와라곤의 습공",
+        "en": "Varagon's Attack"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110103,
+      "name": {
+        "ko": "더러운 그림자",
+        "en": "Despised Shadow"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110104,
+      "name": {
+        "ko": "무한의 정신",
+        "en": "Highest Glance"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110205,
+      "name": {
+        "ko": "죽음의 향연",
+        "en": "End Night Banquet"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110209,
+      "name": {
+        "ko": "불길한 선물",
+        "en": "Ominous Gift"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110301,
+      "name": {
+        "ko": "엇갈린 자",
+        "en": "Crosser"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110302,
+      "name": {
+        "ko": "환상의 청산",
+        "en": "Circular Clearing"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110303,
+      "name": {
+        "ko": "저주의 불길",
+        "en": "Cursed Flame"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110305,
+      "name": {
+        "ko": "명예와 치욕",
+        "en": "Shamed"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110306,
+      "name": {
+        "ko": "결의",
+        "en": "Will"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110309,
+      "name": {
+        "ko": "파멸의 날개",
+        "en": "Harbinger's Reversed Plumes"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110401,
+      "name": {
+        "ko": "마지막 요구",
+        "en": "Farewell Desire"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110405,
+      "name": {
+        "ko": "허무한 원한",
+        "en": "Fleeting Regret"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110408,
+      "name": {
+        "ko": "썬더 브랜치",
+        "en": "Thunder Branch"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110409,
+      "name": {
+        "ko": "맹세",
+        "en": "Oathkeeper"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110505,
+      "name": {
+        "ko": "잘못된 중재",
+        "en": "Incorrect Arbitration"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110602,
+      "name": {
+        "ko": "작열하는 진실",
+        "en": "Scorching Words"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110604,
+      "name": {
+        "ko": "미쓰비의 거절",
+        "en": "Misube's Refusal"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110605,
+      "name": {
+        "ko": "강철의 응집",
+        "en": "Steel Stagnation"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110606,
+      "name": {
+        "ko": "얼어붙은 의지",
+        "en": "Frozen Will"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110607,
+      "name": {
+        "ko": "영혼의 교차",
+        "en": "Interlocking Soul"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110702,
+      "name": {
+        "ko": "원소 소용돌이",
+        "en": "Elemental Whirl"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110703,
+      "name": {
+        "ko": "지지 않는 달",
+        "en": "Eternal Moon"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110705,
+      "name": {
+        "ko": "플라잉 버드",
+        "en": "Flying Bird"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110707,
+      "name": {
+        "ko": "참수의 시간",
+        "en": "Throat-Slasher"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110802,
+      "name": {
+        "ko": "추억",
+        "en": "Memory"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110804,
+      "name": {
+        "ko": "고해의 단검",
+        "en": "Imploration Dagger"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110808,
+      "name": {
+        "ko": "미스터리한 섬광",
+        "en": "Shadow of Thunderlight's Eyes"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110809,
+      "name": {
+        "ko": "잔 그림자",
+        "en": "Frantic Shadow"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110901,
+      "name": {
+        "ko": "포효하는 산맥",
+        "en": "Mountain Howling"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110902,
+      "name": {
+        "ko": "무한한 황혼의 활",
+        "en": "Bow of Endless Dusk"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110904,
+      "name": {
+        "ko": "해를 쏘는 장궁",
+        "en": "Sun-shooter Long Bow"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110905,
+      "name": {
+        "ko": "번개 그림자의 손길",
+        "en": "Shadow of Thunderlight's Touch"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 110908,
+      "name": {
+        "ko": "심연의 화살",
+        "en": "Glacial Abyss Arrow"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111101,
+      "name": {
+        "ko": "라이언 하츠 왕의 열망",
+        "en": "King Lionheart's Ambition"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111103,
+      "name": {
+        "ko": "뜨거운 물결",
+        "en": "Scorching Wave"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111201,
+      "name": {
+        "ko": "부러진 팔목",
+        "en": "Severed Wrist"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111203,
+      "name": {
+        "ko": "차가운 눈빛",
+        "en": "Frozen Sight"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111205,
+      "name": {
+        "ko": "꿀벌의 울음",
+        "en": "Buzzing"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111207,
+      "name": {
+        "ko": "자갈",
+        "en": "Gravel"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111303,
+      "name": {
+        "ko": "들판의 메아리",
+        "en": "Plain Echo"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111305,
+      "name": {
+        "ko": "렐프의 야망",
+        "en": "Ralph's Ambition"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111306,
+      "name": {
+        "ko": "벙어리",
+        "en": "Dumb Voice"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111401,
+      "name": {
+        "ko": "대홍수",
+        "en": "Jumble Ice"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111402,
+      "name": {
+        "ko": "광포한 번개 그림자",
+        "en": "Shadow of Thunderlight's Fury"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111403,
+      "name": {
+        "ko": "차갑게 엉킨 가지",
+        "en": "Twisted Branch"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111404,
+      "name": {
+        "ko": "봄날의 부활",
+        "en": "Spring Resurrection"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111406,
+      "name": {
+        "ko": "발로그의 승낙",
+        "en": "Fire Lord's Promise"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111407,
+      "name": {
+        "ko": "지혜로운 자의 고민거리",
+        "en": "Oversight"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111408,
+      "name": {
+        "ko": "최고 권력",
+        "en": "Supreme Throne"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111410,
+      "name": {
+        "ko": "파문의 지팡이",
+        "en": "Scepter of Excommunication"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111411,
+      "name": {
+        "ko": "광란의 템포",
+        "en": "Scorching Tempo"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111505,
+      "name": {
+        "ko": "지혜로운 자의 통찰력",
+        "en": "Sage's Foresight"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 111509,
+      "name": {
+        "ko": "오스 오브 플레임",
+        "en": "Fiery Oath"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112101,
+      "name": {
+        "ko": "빛나는 여정",
+        "en": "Glorious Journey"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112103,
+      "name": {
+        "ko": "깨지지 않는 흉갑",
+        "en": "Unbreakable Armor"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112104,
+      "name": {
+        "ko": "드래곤 브리드 아머",
+        "en": "Dragon Breath Armor"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112105,
+      "name": {
+        "ko": "사념의 아머",
+        "en": "Evil Heart Armor"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112106,
+      "name": {
+        "ko": "조각난 달빛",
+        "en": "Shattered Moonlight"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112107,
+      "name": {
+        "ko": "심홍의 왕",
+        "en": "Crimson King"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112112,
+      "name": {
+        "ko": "킹덤 아머",
+        "en": "Kingly Armor"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112113,
+      "name": {
+        "ko": "얼음을 마시는 자의 굴레",
+        "en": "Iced Drinker's Cage"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112114,
+      "name": {
+        "ko": "네이처 로브",
+        "en": "Vestment of Song"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112116,
+      "name": {
+        "ko": "팬텀 바디",
+        "en": "Phantasm"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112119,
+      "name": {
+        "ko": "왕가의 성쇠",
+        "en": "Royal Cycle"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112121,
+      "name": {
+        "ko": "불멸의 신앙",
+        "en": "Undying Faith"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112122,
+      "name": {
+        "ko": "이터널 가디언",
+        "en": "Endless Fortress"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112123,
+      "name": {
+        "ko": "순교자의 신목",
+        "en": "Martyr's Staff"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112124,
+      "name": {
+        "ko": "침식된 성채",
+        "en": "Corrupted Bulwark"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112126,
+      "name": {
+        "ko": "허공의 제방",
+        "en": "Void Embankment"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112130,
+      "name": {
+        "ko": "레인보우",
+        "en": "Double Rainbow"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112131,
+      "name": {
+        "ko": "화염을 삼키는 죄악",
+        "en": "Flaming Evil"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112132,
+      "name": {
+        "ko": "얼어붙은 길",
+        "en": "Frozen Path"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112133,
+      "name": {
+        "ko": "찰나의 하늘색",
+        "en": "Fleeting Sky"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112134,
+      "name": {
+        "ko": "샤프 버그",
+        "en": "Cicada Shell"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112135,
+      "name": {
+        "ko": "중기",
+        "en": "Heavyware"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112137,
+      "name": {
+        "ko": "스타 로브",
+        "en": "Stellar Vestment of Eminence"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112139,
+      "name": {
+        "ko": "선셋 로브",
+        "en": "Twilight Vestment"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112141,
+      "name": {
+        "ko": "불의 물결",
+        "en": "Devouring Tide"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112142,
+      "name": {
+        "ko": "백야의 빛",
+        "en": "Arrival of the Polar Night"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112145,
+      "name": {
+        "ko": "올마이티 오리진",
+        "en": "Omniscient Prototype"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112146,
+      "name": {
+        "ko": "보잘 것 없는 영원",
+        "en": "Mere Eternity"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112147,
+      "name": {
+        "ko": "극과 극 절친",
+        "en": "Friend Nemesis"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112151,
+      "name": {
+        "ko": "성난 자의 몸",
+        "en": "Furious Man's Body"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112152,
+      "name": {
+        "ko": "미치광이 의사의 은 코팅 폐",
+        "en": "Mad Doctor's Silver-Plated Lung"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112153,
+      "name": {
+        "ko": "매그너스의 질시",
+        "en": "Magnus' Jealousy"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112154,
+      "name": {
+        "ko": "렐프의 큰 무덤",
+        "en": "Ralph's Burial"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112155,
+      "name": {
+        "ko": "이스라필의 비장한 소원",
+        "en": "Israfel's Sorrow"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112156,
+      "name": {
+        "ko": "타락의 흉갑",
+        "en": "Gauze of Phantom Sin"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112157,
+      "name": {
+        "ko": "재앙",
+        "en": "Blight"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112158,
+      "name": {
+        "ko": "불길한 별",
+        "en": "Ruinous Star"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112159,
+      "name": {
+        "ko": "고통의 포옹",
+        "en": "Agony's Embrace"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112161,
+      "name": {
+        "ko": "뇌신의 꼬리뼈",
+        "en": "Lightning Striker's Sacrum"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112162,
+      "name": {
+        "ko": "삼상",
+        "en": "Trinity"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112163,
+      "name": {
+        "ko": "지니어스 전투복",
+        "en": "Genius Battlegear"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112165,
+      "name": {
+        "ko": "단정",
+        "en": "Imperious Verdict"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112166,
+      "name": {
+        "ko": "포기의 고통",
+        "en": "Agony of Lost Self"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112167,
+      "name": {
+        "ko": "와라곤의 슬픔",
+        "en": "Varagon's Lament"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112168,
+      "name": {
+        "ko": "무의미한 절충",
+        "en": "Futile Tradeoff"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112169,
+      "name": {
+        "ko": "소리 없는 변명",
+        "en": "Silent Avowal"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112201,
+      "name": {
+        "ko": "암석에 우뚝 선 왕도마뱀",
+        "en": "Rock Lizard's Skull"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112203,
+      "name": {
+        "ko": "혼돈의 유언",
+        "en": "Last Words of Chaos"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112204,
+      "name": {
+        "ko": "레전드 전사의 고글",
+        "en": "Legendary Soldier Spectacles"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112205,
+      "name": {
+        "ko": "기계 보스",
+        "en": "Machine Lord"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112206,
+      "name": {
+        "ko": "열린 마음",
+        "en": "Opening Heart"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112207,
+      "name": {
+        "ko": "시린 숨",
+        "en": "Cold Breath"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112208,
+      "name": {
+        "ko": "용솟음치는 영감",
+        "en": "Surging Inspiration"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112209,
+      "name": {
+        "ko": "사악한 용 크라운",
+        "en": "Fiend Crown"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112211,
+      "name": {
+        "ko": "거미줄 신비 두건",
+        "en": "Webbed Arcane Headscarf"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112212,
+      "name": {
+        "ko": "맹인의 시선",
+        "en": "Blind Vision"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112213,
+      "name": {
+        "ko": "사이렌 페이스가드",
+        "en": "Siren Faceguard"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112214,
+      "name": {
+        "ko": "선홍색 칙령",
+        "en": "Scarlet Decree"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112215,
+      "name": {
+        "ko": "깨어난 머리",
+        "en": "Awakening Skull"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112216,
+      "name": {
+        "ko": "황실의 철갑 보초",
+        "en": "Imperial Iron Sentry"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112217,
+      "name": {
+        "ko": "저승의 강 물결",
+        "en": "Tide of the Styx"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112219,
+      "name": {
+        "ko": "태양의 포옹",
+        "en": "Sun's Embrace"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112220,
+      "name": {
+        "ko": "번개 악골",
+        "en": "Thunder Jawbone"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112221,
+      "name": {
+        "ko": "썩은 골수",
+        "en": "Corrupted Marrow"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112223,
+      "name": {
+        "ko": "서리의 시작",
+        "en": "When Winter Comes"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112228,
+      "name": {
+        "ko": "바보의 왕관",
+        "en": "Fool's Crown"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112229,
+      "name": {
+        "ko": "신의 분신",
+        "en": "Divine Ember"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112230,
+      "name": {
+        "ko": "무당의 눈",
+        "en": "Hekate's Vision"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112231,
+      "name": {
+        "ko": "사이렌의 눈 사냥",
+        "en": "Hunting the Eye of the Kraken"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112232,
+      "name": {
+        "ko": "동트는 새벽",
+        "en": "Flying Light at Daybreak"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112235,
+      "name": {
+        "ko": "트러블메이커",
+        "en": "Troublemaker"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112237,
+      "name": {
+        "ko": "덤벙이의 철관",
+        "en": "Boor's Iron Crown"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112240,
+      "name": {
+        "ko": "발 없는 새의 설움",
+        "en": "Legless Bird's Lament"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112241,
+      "name": {
+        "ko": "반반 마스크",
+        "en": "Hanging Two-Tone Mask"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112249,
+      "name": {
+        "ko": "매그너스의 흉터",
+        "en": "Magnus' Scar"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112250,
+      "name": {
+        "ko": "머리 없는 왕관",
+        "en": "Headless Crown"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112251,
+      "name": {
+        "ko": "응하",
+        "en": "Solid River"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112252,
+      "name": {
+        "ko": "브레인 웨이브 버스터",
+        "en": "Brainwave Emitter"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112253,
+      "name": {
+        "ko": "업화의 철면",
+        "en": "Mask of Infernal Iron"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112254,
+      "name": {
+        "ko": "크라고르의 포효",
+        "en": "Kragol's Roar"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112256,
+      "name": {
+        "ko": "아이언 앤 블룸",
+        "en": "Iron and Bloom"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112257,
+      "name": {
+        "ko": "악의의 속박",
+        "en": "Malign Embrace"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112258,
+      "name": {
+        "ko": "렐프의 투구",
+        "en": "Ralph's Dreadcrest"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112259,
+      "name": {
+        "ko": "용암 투구",
+        "en": "Magmaskull"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112303,
+      "name": {
+        "ko": "고통 예찬",
+        "en": "Praise for Injury"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112305,
+      "name": {
+        "ko": "폭군의 완갑",
+        "en": "Berserker Bracer"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112307,
+      "name": {
+        "ko": "얼음과 불의 융합",
+        "en": "Ice and Fire"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112308,
+      "name": {
+        "ko": "팡팡 장갑",
+        "en": "Boom Gloves"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112309,
+      "name": {
+        "ko": "영묘의 장갑",
+        "en": "Feline Gloves"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112310,
+      "name": {
+        "ko": "차가운 산맥",
+        "en": "Ice Pulse"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112311,
+      "name": {
+        "ko": "혼돈의 심연",
+        "en": "Chaos Abyss"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112313,
+      "name": {
+        "ko": "현자의 통찰력",
+        "en": "Sage's Insight"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112314,
+      "name": {
+        "ko": "명사수 완갑",
+        "en": "Marksman Bracers"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112315,
+      "name": {
+        "ko": "썬더볼트 조종자",
+        "en": "Thunder Manipulator"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112316,
+      "name": {
+        "ko": "악독한 건틀릿",
+        "en": "Malevolent Hand"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112317,
+      "name": {
+        "ko": "눈부신 암가드",
+        "en": "Blinding Bracers"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112318,
+      "name": {
+        "ko": "폭군의 철완",
+        "en": "Tyrant's Iron Fist"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112320,
+      "name": {
+        "ko": "열정",
+        "en": "Ardor"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112322,
+      "name": {
+        "ko": "와라곤의 붕대",
+        "en": "Varagon Shroud"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112323,
+      "name": {
+        "ko": "유령의 학살",
+        "en": "Ghost Slaughter"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112326,
+      "name": {
+        "ko": "고문의 시작",
+        "en": "Torturer's Touch"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112329,
+      "name": {
+        "ko": "손바닥 속 공허의 바다",
+        "en": "Miniature Void Sea"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112330,
+      "name": {
+        "ko": "빛을 여는 날개",
+        "en": "Wings of Light"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112333,
+      "name": {
+        "ko": "갈라진 바다",
+        "en": "Sea Splitter"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112335,
+      "name": {
+        "ko": "태엽 기계손",
+        "en": "Clenched Spring"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112336,
+      "name": {
+        "ko": "댄싱 트윈 핑거",
+        "en": "Blade-dancer's Fingers"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112337,
+      "name": {
+        "ko": "매그너스의 낡은 규율",
+        "en": "Magnus' Laws"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112338,
+      "name": {
+        "ko": "렐프의 낡은 규율",
+        "en": "Ralph's Laws"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112339,
+      "name": {
+        "ko": "이스라필의 낡은 규율",
+        "en": "Israfel's Laws"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112340,
+      "name": {
+        "ko": "영원 순교자",
+        "en": "Aeterna Martyr"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112341,
+      "name": {
+        "ko": "대마법사의 손",
+        "en": "Archmage's Hands"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112342,
+      "name": {
+        "ko": "고독한 서약",
+        "en": "Vow's Grasp"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112343,
+      "name": {
+        "ko": "폭군의 기세",
+        "en": "Tyrant's Smoldering Hold"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112344,
+      "name": {
+        "ko": "금속 성약",
+        "en": "Alloy Covenant"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112345,
+      "name": {
+        "ko": "길 잃은 새의 안식처",
+        "en": "Stray Bird's Return"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112346,
+      "name": {
+        "ko": "흉악한 신의 손",
+        "en": "Death's Touch"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112347,
+      "name": {
+        "ko": "신이 내린 은혜",
+        "en": "Providential Grace"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112348,
+      "name": {
+        "ko": "검무사의 군무",
+        "en": "Blade-Dancer's Edges"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112349,
+      "name": {
+        "ko": "원한의 손",
+        "en": "Hand of Malice"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112351,
+      "name": {
+        "ko": "퀀텀 컨버전스",
+        "en": "Quantum Convergence"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112352,
+      "name": {
+        "ko": "대가의 손",
+        "en": "Grandmaster's Hands"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112353,
+      "name": {
+        "ko": "킹콩 브레이서",
+        "en": "Vajra Handguards"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112354,
+      "name": {
+        "ko": "진리의 지배",
+        "en": "Grasp of Truth"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112355,
+      "name": {
+        "ko": "군마의 손",
+        "en": "Demons' Touch"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112356,
+      "name": {
+        "ko": "살인 소매검",
+        "en": "Vendetta's Sleeve-Blade"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112357,
+      "name": {
+        "ko": "미다스의 손",
+        "en": "Golden Touch"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112401,
+      "name": {
+        "ko": "용 비늘 라이트 슈즈",
+        "en": "Dragon Scale Shoes"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112402,
+      "name": {
+        "ko": "업화의 신발",
+        "en": "Boots of Sinned Fire"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112403,
+      "name": {
+        "ko": "고독한 자의 부츠",
+        "en": "Lone Walker's Boots"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112404,
+      "name": {
+        "ko": "확고한 발걸음",
+        "en": "Resolution Steps"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112405,
+      "name": {
+        "ko": "마지막 요새",
+        "en": "Final Bastion"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112407,
+      "name": {
+        "ko": "와리의 배회",
+        "en": "Valerie's Night Stroll"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112409,
+      "name": {
+        "ko": "황실 근위병의 부츠",
+        "en": "Royal Guard's Boots"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112410,
+      "name": {
+        "ko": "민첩한 부츠",
+        "en": "Grace Boots"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112412,
+      "name": {
+        "ko": "동력 작전 경갑",
+        "en": "Powered Battle Greaves"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112413,
+      "name": {
+        "ko": "상인회 호위병 전투 부츠",
+        "en": "Guild Guard Boots"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112414,
+      "name": {
+        "ko": "댄싱 스텝",
+        "en": "Blade-dancer's Steps"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112415,
+      "name": {
+        "ko": "군왕의 은총",
+        "en": "King's Boon"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112416,
+      "name": {
+        "ko": "실전 기술",
+        "en": "Awaiting"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112417,
+      "name": {
+        "ko": "식지 않는 투지",
+        "en": "Fighting Stompers"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112418,
+      "name": {
+        "ko": "영혼의 주입",
+        "en": "Mind Infusion"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112419,
+      "name": {
+        "ko": "렐프의 발자국",
+        "en": "Ralph's Footsteps"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112420,
+      "name": {
+        "ko": "영묘의 발걸음",
+        "en": "Feline Steps"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112423,
+      "name": {
+        "ko": "킹 랫 생존기",
+        "en": "Rat King's Escape Show"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112424,
+      "name": {
+        "ko": "황혼의 크로우 꼬리",
+        "en": "Crow's Plume"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112426,
+      "name": {
+        "ko": "방화 의수",
+        "en": "Fire Shielding Prosthetics"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112427,
+      "name": {
+        "ko": "번개 의수",
+        "en": "Thunder Channeling Prosthetics"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112428,
+      "name": {
+        "ko": "방한 의수",
+        "en": "Cold Sanctuary Prosthetics"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112430,
+      "name": {
+        "ko": "그늘진 춤사위",
+        "en": "Shadow Dance"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112431,
+      "name": {
+        "ko": "사뿐 발걸음",
+        "en": "Air Treaders"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112433,
+      "name": {
+        "ko": "윈드 체이서",
+        "en": "Wind Chasers"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112434,
+      "name": {
+        "ko": "크롤링 탱고",
+        "en": "Wriggling Tango"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112435,
+      "name": {
+        "ko": "스텝힐",
+        "en": "Heels of Hands"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112436,
+      "name": {
+        "ko": "렐프의 고된 여정",
+        "en": "Ralph's Journey"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112437,
+      "name": {
+        "ko": "파괴 전투화",
+        "en": "Boots of Devastation"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112438,
+      "name": {
+        "ko": "발로그의 불타는 발걸음",
+        "en": "Fire Lord's Pyric Stride"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112439,
+      "name": {
+        "ko": "삼라 행적",
+        "en": "Verdant Steps"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112440,
+      "name": {
+        "ko": "추적자의 신발",
+        "en": "Pathfinder's Path"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112441,
+      "name": {
+        "ko": "빙해의 물결",
+        "en": "Frozen Ripples"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112442,
+      "name": {
+        "ko": "교활한 걸음",
+        "en": "Trickster's Tread"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112502,
+      "name": {
+        "ko": "불가사의한 방패",
+        "en": "Arcane Shield"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112503,
+      "name": {
+        "ko": "판결자의 방패",
+        "en": "Shield of Judgment"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112505,
+      "name": {
+        "ko": "배수진 전투",
+        "en": "Last Stand"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112506,
+      "name": {
+        "ko": "침묵의 경비병 방패",
+        "en": "Silent Sentry Shield"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112507,
+      "name": {
+        "ko": "울부짖는 영혼",
+        "en": "Heavy Soul"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112508,
+      "name": {
+        "ko": "전기 에너지 증폭기",
+        "en": "Electricity Amplifier"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112510,
+      "name": {
+        "ko": "빙하 마법 방패",
+        "en": "Glacier Caster Shield"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112518,
+      "name": {
+        "ko": "나약한 자의 반격",
+        "en": "The Coward's Counterfire"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112519,
+      "name": {
+        "ko": "차양",
+        "en": "Cover the Sun"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 112521,
+      "name": {
+        "ko": "거울의 이면",
+        "en": "Reverse-Reverse-Reverse Mirror"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113101,
+      "name": {
+        "ko": "화염의 탄생",
+        "en": "Born in Fire"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113102,
+      "name": {
+        "ko": "강한 분노",
+        "en": "Fury Heart"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113107,
+      "name": {
+        "ko": "소집 반지",
+        "en": "Horn Ring"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113108,
+      "name": {
+        "ko": "썩어버린 지혜",
+        "en": "Decayed Mind"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113109,
+      "name": {
+        "ko": "움직이는 빙하",
+        "en": "Restless Glacier"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113111,
+      "name": {
+        "ko": "혼란의 종말",
+        "en": "Chaotic Ending"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113112,
+      "name": {
+        "ko": "이글거리는 손가락뼈",
+        "en": "Searing Finger Bone"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113116,
+      "name": {
+        "ko": "번개의 강림",
+        "en": "Exemption Thunderhell"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113117,
+      "name": {
+        "ko": "얼어붙은 번개",
+        "en": "Frozen Lightning"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113118,
+      "name": {
+        "ko": "독자 활동",
+        "en": "Lone Survivor"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113119,
+      "name": {
+        "ko": "일당백",
+        "en": "Lonesome"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113120,
+      "name": {
+        "ko": "철의 강",
+        "en": "Stream of Steel"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113122,
+      "name": {
+        "ko": "타오르지 않는 불",
+        "en": "Frozen Flame"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113123,
+      "name": {
+        "ko": "얼어붙지 않는 얼음",
+        "en": "Burning Ice"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113124,
+      "name": {
+        "ko": "개더링 윈드",
+        "en": "Windbreath Convergence"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113125,
+      "name": {
+        "ko": "스캐터링 윈드",
+        "en": "Windbreath Dispersion"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113126,
+      "name": {
+        "ko": "스트롱 페인",
+        "en": "Traceless Pain"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113128,
+      "name": {
+        "ko": "뒤집어진 세계",
+        "en": "Kaleidoscope"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113130,
+      "name": {
+        "ko": "진흙 인형의 잘린 손가락",
+        "en": "Clay Doll's Broken Finger"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113131,
+      "name": {
+        "ko": "반지의 괴담",
+        "en": "Folklore of Locking Fingers"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113132,
+      "name": {
+        "ko": "시간의 소실",
+        "en": "Passing of Time"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113133,
+      "name": {
+        "ko": "서약의 시간",
+        "en": "Time of Vow"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113134,
+      "name": {
+        "ko": "불경한 기도",
+        "en": "Unholy Prayer"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113137,
+      "name": {
+        "ko": "반석의 마음",
+        "en": "Heart of Rock"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113138,
+      "name": {
+        "ko": "만물의 마음",
+        "en": "Heart of Magic"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113139,
+      "name": {
+        "ko": "은빛 서리",
+        "en": "Silver Frost"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113201,
+      "name": {
+        "ko": "항쟁의 사슬",
+        "en": "Chain of Resistance"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113202,
+      "name": {
+        "ko": "황폐한 결정",
+        "en": "Forlorn Crystal"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113203,
+      "name": {
+        "ko": "소용돌이의 중심",
+        "en": "Vortex Heart"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113205,
+      "name": {
+        "ko": "방어의 대가 펜던트",
+        "en": "Master Defender Pendant"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113207,
+      "name": {
+        "ko": "매그너스의 횃불",
+        "en": "Magnus' Mindflame"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113208,
+      "name": {
+        "ko": "진리",
+        "en": "Truth"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113209,
+      "name": {
+        "ko": "교도관의 브로치",
+        "en": "Warden's Breastpin"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113211,
+      "name": {
+        "ko": "바위의 넓은 마음",
+        "en": "Ocean of Rock"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113213,
+      "name": {
+        "ko": "영혼의 몰락",
+        "en": "Blessing Pendant"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113214,
+      "name": {
+        "ko": "다섯 빛깔 아스트롤라베",
+        "en": "Pentagram Astrolabe"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113215,
+      "name": {
+        "ko": "제련된 새의 목걸이",
+        "en": "Necklace of Firebird"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113217,
+      "name": {
+        "ko": "퇴락",
+        "en": "Ownerless"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113218,
+      "name": {
+        "ko": "현자의 멍에",
+        "en": "Sage's Shackle"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113222,
+      "name": {
+        "ko": "환영",
+        "en": "Phantom"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113242,
+      "name": {
+        "ko": "인연의 실-강철비",
+        "en": "Illusory Ocean Silk - Iron Rain"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113243,
+      "name": {
+        "ko": "인연의 실-재난",
+        "en": "Illusory Ocean Silk - Ash"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113244,
+      "name": {
+        "ko": "인연의 실-번개",
+        "en": "Illusory Ocean Silk - Thunder"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113245,
+      "name": {
+        "ko": "인연의 실-혹한",
+        "en": "Illusory Ocean Silk - Chilly"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113246,
+      "name": {
+        "ko": "인연의 실-허망",
+        "en": "Illusory Ocean Silk - Unreal"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113251,
+      "name": {
+        "ko": "잘려나간 광환",
+        "en": "Broken Sun Ring"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113252,
+      "name": {
+        "ko": "신의 울타리",
+        "en": "Mother Goddess' Paddock"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113254,
+      "name": {
+        "ko": "인사이트",
+        "en": "Clarity"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113255,
+      "name": {
+        "ko": "개막의 경첩",
+        "en": "Chain behind the Curtain"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113256,
+      "name": {
+        "ko": "기울어진 결백",
+        "en": "Strange Snow"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113257,
+      "name": {
+        "ko": "가짜 신의 허물",
+        "en": "False God's Skin"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113260,
+      "name": {
+        "ko": "운명의 주사위",
+        "en": "Rat King's Megagon Dice"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113263,
+      "name": {
+        "ko": "쇠둥지",
+        "en": "Iron Nest"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113264,
+      "name": {
+        "ko": "영생의 만가",
+        "en": "Elegy of Immortality"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113267,
+      "name": {
+        "ko": "라이트 헤이터",
+        "en": "Photophobia"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113269,
+      "name": {
+        "ko": "세찬 바람의 때",
+        "en": "Howling Wind"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113272,
+      "name": {
+        "ko": "은방울",
+        "en": "Lady's Tears"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113273,
+      "name": {
+        "ko": "숭고한 빛",
+        "en": "Revered Light"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113274,
+      "name": {
+        "ko": "부패의 축복",
+        "en": "Decaying Blessing"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113275,
+      "name": {
+        "ko": "스톰 하트",
+        "en": "Heart of the Storm"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113276,
+      "name": {
+        "ko": "악의 염주",
+        "en": "Prayer Bead of Evil"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113277,
+      "name": {
+        "ko": "서리 역행자의 통곡",
+        "en": "Coldness Tracer's Tear"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113278,
+      "name": {
+        "ko": "수은 극형",
+        "en": "Mercurial Torment"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113279,
+      "name": {
+        "ko": "범부의 꿈",
+        "en": "Mortal's Reverie"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113280,
+      "name": {
+        "ko": "무상 선심",
+        "en": "Heart of Animitta"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113281,
+      "name": {
+        "ko": "역반",
+        "en": "Necklace of Inverse"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113283,
+      "name": {
+        "ko": "서리 천둥",
+        "en": "Frostbolt"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113284,
+      "name": {
+        "ko": "탈법",
+        "en": "Law of Greed"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113285,
+      "name": {
+        "ko": "숙원",
+        "en": "Old Grudge"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113301,
+      "name": {
+        "ko": "강자의 비명",
+        "en": "Steel's Lament"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113303,
+      "name": {
+        "ko": "영원의 태양",
+        "en": "Eternal Sun"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113304,
+      "name": {
+        "ko": "절연",
+        "en": "Insulation"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113305,
+      "name": {
+        "ko": "기로에 선 약사의 허리 보호대",
+        "en": "Strayed Healer's Waistguard"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113306,
+      "name": {
+        "ko": "원소의 속삭임 허리띠",
+        "en": "Elemental Whisper Belt"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113307,
+      "name": {
+        "ko": "혼란의 원소 허리띠",
+        "en": "Confusion Elemental Belt"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113308,
+      "name": {
+        "ko": "창백한 안개의 포옹",
+        "en": "Pale Mist's Embrace"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113309,
+      "name": {
+        "ko": "주술사의 약초 가방",
+        "en": "Witchdoctor's Herb Bag"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113311,
+      "name": {
+        "ko": "겨울의 기원",
+        "en": "Winter of Origin"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113313,
+      "name": {
+        "ko": "보상의 삶",
+        "en": "Compensatory Life"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113315,
+      "name": {
+        "ko": "생에 대한 욕구",
+        "en": "Desire of Survival"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113317,
+      "name": {
+        "ko": "영원불멸의 번개",
+        "en": "Everburn Thunderfire"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113318,
+      "name": {
+        "ko": "광택 허리띠",
+        "en": "Light Hunter Belt"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113319,
+      "name": {
+        "ko": "신성의 외침",
+        "en": "Cry of Divinity"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113320,
+      "name": {
+        "ko": "검은 물결의 포옹",
+        "en": "Embrace of the Dark Surge"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113322,
+      "name": {
+        "ko": "다각프리즘",
+        "en": "Polygonal Enclosure"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113323,
+      "name": {
+        "ko": "멀티폼 버그",
+        "en": "Corrosion of Manifolds"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113326,
+      "name": {
+        "ko": "영원한 안개",
+        "en": "Eternal Sea Fog"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113329,
+      "name": {
+        "ko": "넘치는 마음",
+        "en": "Enamor"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113330,
+      "name": {
+        "ko": "진형 파괴",
+        "en": "Formation Breaker"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113332,
+      "name": {
+        "ko": "영혼의 응답",
+        "en": "Call of Souls"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113333,
+      "name": {
+        "ko": "쥐치기의 금채찍",
+        "en": "Rat Herder's Golden Rein"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113335,
+      "name": {
+        "ko": "영원",
+        "en": "Eternity"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113336,
+      "name": {
+        "ko": "뜨거운 밤의 포옹",
+        "en": "Hot Night's Embrace"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113337,
+      "name": {
+        "ko": "동틀 녘",
+        "en": "Dawn Break"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113338,
+      "name": {
+        "ko": "뒤엉킨 뿌리",
+        "en": "Entangled Root"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113339,
+      "name": {
+        "ko": "다르마 벨트",
+        "en": "Bodhi Girdle"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113340,
+      "name": {
+        "ko": "관망",
+        "en": "Silent Observer"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113341,
+      "name": {
+        "ko": "고요한 물결",
+        "en": "Tranquil Stir"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 113342,
+      "name": {
+        "ko": "만병통치약의 베이스 노트",
+        "en": "Omni-Elixir Notes"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 350900,
+      "name": {
+        "ko": "미정 숙명",
+        "en": "Undetermined Fate"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360502,
+      "name": {
+        "ko": "제노 프리즘: 몽롱",
+        "en": "Ethereal Prism: Haze"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360503,
+      "name": {
+        "ko": "제노 프리즘: 환영",
+        "en": "Ethereal Prism: Phantasmagoria"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360602,
+      "name": {
+        "ko": "제노 프리즘: 영광의 결속",
+        "en": "Ethereal Prism: One For All"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360603,
+      "name": {
+        "ko": "제노 프리즘: 강철 의지",
+        "en": "Ethereal Prism: Unwavering Fortress"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360604,
+      "name": {
+        "ko": "제노 프리즘: 승승장구",
+        "en": "Ethereal Prism: Unstoppable Force"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360605,
+      "name": {
+        "ko": "제노 프리즘: 속전속결",
+        "en": "Ethereal Prism: Hare's Agility"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360606,
+      "name": {
+        "ko": "제노 프리즘: 템페스트",
+        "en": "Ethereal Prism: Sweeping Fury"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360608,
+      "name": {
+        "ko": "제노 프리즘: 탁월한 판단",
+        "en": "Ethereal Prism: Keen Intellect"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360609,
+      "name": {
+        "ko": "제노 프리즘: 오만무례",
+        "en": "Ethereal Prism: Towering Presence"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360611,
+      "name": {
+        "ko": "제노 프리즘: 선동의 물결",
+        "en": "Ethereal Prism: Spell Ripple"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360612,
+      "name": {
+        "ko": "제노 프리즘: 무적의 기세",
+        "en": "Ethereal Prism: Juggernaut"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360613,
+      "name": {
+        "ko": "제노 프리즘: 강약의 하모니",
+        "en": "Ethereal Prism: Adaptive Defense"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360614,
+      "name": {
+        "ko": "제노 프리즘: 격앙된 투지",
+        "en": "Ethereal Prism: Unmatched Valor"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360615,
+      "name": {
+        "ko": "제노 프리즘: 자기기만",
+        "en": "Ethereal Prism: Self-Delusion"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360616,
+      "name": {
+        "ko": "제노 프리즘: 갈수록 태산",
+        "en": "Ethereal Prism: Escalating Affliction"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360618,
+      "name": {
+        "ko": "제노 프리즘: 의지불굴",
+        "en": "Ethereal Prism: Commander's Gambit"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360619,
+      "name": {
+        "ko": "제노 프리즘: 생명의 순환",
+        "en": "Ethereal Prism: Circle of Life"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360620,
+      "name": {
+        "ko": "제노 프리즘: 절묘한 솜씨",
+        "en": "Ethereal Prism: Miraculous Touch"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360621,
+      "name": {
+        "ko": "제노 프리즘: 풍전등화",
+        "en": "Ethereal Prism: Dark Advance"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360623,
+      "name": {
+        "ko": "제노 프리즘: 전술의 대가",
+        "en": "Ethereal Prism: Effortless Command"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360624,
+      "name": {
+        "ko": "제노 프리즘: 파멸적인 힘",
+        "en": "Ethereal Prism: Crushing Blast"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360626,
+      "name": {
+        "ko": "제노 프리즘: 풍운 호령",
+        "en": "Ethereal Prism: Storm's Command"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360627,
+      "name": {
+        "ko": "제노 프리즘: 재앙 자초",
+        "en": "Ethereal Prism: Fire's Allure"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 360628,
+      "name": {
+        "ko": "제노 프리즘: 기상천외",
+        "en": "Ethereal Prism: Fiery Fantasy"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 370101,
+      "name": {
+        "ko": "프리즘 룰러-레어",
+        "en": "Prism Gauge - Rare"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 370201,
+      "name": {
+        "ko": "프리즘 룰러-레전드",
+        "en": "Prism Gauge - Legendary"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 370601,
+      "name": {
+        "ko": "역상의 잔영",
+        "en": "Inverse Image Echo"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 370701,
+      "name": {
+        "ko": "프리즘 복구기",
+        "en": "Prism Repairer"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 380101,
+      "name": {
+        "ko": "절단 도구",
+        "en": "Cutting Instrument"
+      },
+      "category": null,
+      "isCurrency": false
+    },
+    {
+      "configBaseId": 380104,
+      "name": {
+        "ko": "탁본 인두",
+        "en": "Imprinting Iron"
+      },
+      "category": null,
+      "isCurrency": false
+    }
+  ]
+}
