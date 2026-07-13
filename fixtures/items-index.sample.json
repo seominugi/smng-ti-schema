@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1, "generatedAt": 1752300000000, "currency": 100300,
+  "items": [
+    {
+      "schemaVersion": 1, "configBaseId": 5011,
+      "name": { "ko": "예시 재료", "en": "Sample Material" },
+      "category": "material", "currency": 100300,
+      "ref": { "value": 1.25, "method": "p20_low", "asOf": 1752300000000 },
+      "samples": { "observationCount": 42, "listingDepth": 180, "windowMs": 3600000 },
+      "confidence": "high",
+      "history": { "resolution": "5m", "windowMs": 3600000, "points": [
+        { "ts": 1752299700000, "value": 1.20, "n": 6 },
+        { "ts": 1752300000000, "value": 1.25, "n": 8 }
+      ] },
+      "change": { "pct1h": 0.04, "pct24h": null }, "volume": null, "trend": null
+    }
+  ]
+}
