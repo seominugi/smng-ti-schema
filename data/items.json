@@ -1,7 +1,7 @@
 {
   "source": "tlidb.com",
   "note": "fan wiki; robots Allow /; item names are game facts",
-  "count": 741,
+  "count": 746,
   "items": [
     {
       "configBaseId": 1001,
@@ -3469,6 +3469,15 @@
       "isCurrency": false
     },
     {
+      "configBaseId": 100200,
+      "name": {
+        "ko": "최초의 불꽃 가루",
+        "en": "Flame Sand"
+      },
+      "category": null,
+      "isCurrency": true
+    },
+    {
       "configBaseId": 100300,
       "name": {
         "ko": "최초의 불꽃 결정",
@@ -6392,6 +6401,42 @@
       },
       "category": null,
       "isCurrency": false
+    },
+    {
+      "configBaseId": 200003,
+      "name": {
+        "ko": "고급 엠버",
+        "en": "Fine Ember"
+      },
+      "category": null,
+      "isCurrency": true
+    },
+    {
+      "configBaseId": 200028,
+      "name": {
+        "ko": "진귀한 엠버",
+        "en": "Precious Ember"
+      },
+      "category": null,
+      "isCurrency": true
+    },
+    {
+      "configBaseId": 200029,
+      "name": {
+        "ko": "희귀 엠버",
+        "en": "Matchless Ember"
+      },
+      "category": null,
+      "isCurrency": true
+    },
+    {
+      "configBaseId": 200030,
+      "name": {
+        "ko": "절대자 엠버",
+        "en": "Ultimate Ember"
+      },
+      "category": null,
+      "isCurrency": true
     },
     {
       "configBaseId": 350900,
