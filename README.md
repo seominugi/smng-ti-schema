@@ -14,10 +14,10 @@
 GitHub 릴리스 태그를 사용하는 소비자는 반드시 버전을 고정한다.
 
 ```powershell
-npm install github:seominugi/smng-ti-schema#v0.1.0
+npm install https://github.com/seominugi/smng-ti-schema/releases/download/v0.1.0/smng-ti-schema-0.1.0.tgz
 ```
 
-Git 의존성 설치 시 `prepare`가 ESM/CJS/DTS와 JSON Schema를 생성하므로 `dist/`를 저장소에 커밋하지 않는다. 비공개 저장소로 운영하면 소비자와 CI에 별도 cross-repo GitHub 인증이 필요하다.
+`v0.1.0` 태그에서 `npm pack`으로 만든 GitHub Release tarball에는 ESM/CJS/DTS와 JSON Schema가 포함된다. 소비자는 이 불변 URL과 lockfile integrity를 함께 고정해 Git 도구나 SSH 키 없이 설치한다.
 
 ```ts
 import {

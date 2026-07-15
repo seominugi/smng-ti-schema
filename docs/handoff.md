@@ -1,12 +1,12 @@
 ---
-timestamp: 2026-07-15T23:55:35+09:00
+timestamp: 2026-07-16T00:18:55+09:00
 interface: Codex
-branch: codex/schema-contract-v1 (로컬 구현 커밋 완료, 원격 없음)
+branch: codex/schema-contract-v1 (origin/main 추적, 공개 v0.1.0 릴리스)
 ---
 
 ## 현재 목표
 
-0.1.0 관측치·itemdb 공유 계약을 로컬 기능 브랜치에 커밋하고 검증했다. 다음은 GitHub 저장소 가시성(공개 권장/비공개)을 확정해 최초 `main`과 `v0.1.0` 태그를 만든 뒤, overlay와 pricer의 sibling `file:` 의존성을 그 태그로 고정하는 것이다.
+**[완료] 0.1.0 관측치·itemdb 공유 계약을 공개 저장소와 GitHub Release로 배포했다.** overlay와 pricer는 Git/SSH가 아닌 불변 release tarball URL과 lockfile integrity로 이 계약을 소비한다. 다음 독립 작업은 실제 관측 수집 운영 정책과 집계·조회 계약 v1이다.
 
 ## 작업 규약 요점
 
@@ -16,6 +16,13 @@ branch: codex/schema-contract-v1 (로컬 구현 커밋 완료, 원격 없음)
 - 비밀값·PII를 계약에 추가하지 않는다. 관측치는 익명 UUID v4와 strict object만 허용한다.
 
 ## 완료된 작업
+
+### 공개 v0.1.0 릴리스와 소비자 고정 (2026-07-16)
+
+- 공개 저장소 [seominugi/smng-ti-schema](https://github.com/seominugi/smng-ti-schema)를 만들고 검증된 `3da1e88`을 최초 `main`과 annotated `v0.1.0` 태그로 push했다.
+- 태그 원본에서 `npm pack`한 12.4 kB/59.2 kB tarball을 [GitHub Release v0.1.0](https://github.com/seominugi/smng-ti-schema/releases/tag/v0.1.0)에 첨부했다. SHA-256은 `66F0FAB983B9071542F84D7A1F962B0B96BFA81EC45B6D075AD74DBD6096CF12`다.
+- 깨끗한 임시 소비자에서 공개 태그 설치와 ESM/CJS/JSON Schema import를 확인했다. npm의 GitHub 축약 URL이 lockfile을 `git+ssh`로 바꾸는 동작을 발견해, overlay/pricer는 인증 없는 release asset URL과 SHA-512 integrity를 고정했다.
+- 공개 저장소 메타데이터 회귀 테스트를 추가했다. 최종 schema 검증은 `npm test` **9파일/43테스트**, typecheck, build/schema 생성, 전체 1,690행 itemdb, observation fixture, pack, audit 0건이다.
 
 ### 관측치·itemdb 계약 v1 보강 (2026-07-15)
 
@@ -30,13 +37,11 @@ branch: codex/schema-contract-v1 (로컬 구현 커밋 완료, 원격 없음)
 
 ## 미완료 작업
 
-- `seominugi/smng-ti-schema` 저장소를 공개 또는 비공개로 만들지 사용자 결정 필요. MIT 계약 코드이며 cross-repo 인증이 필요 없는 공개 저장소를 권장한다.
-- 결정 후 최초 `main` push와 `v0.1.0` 태그 생성. 이는 외부 상태 변경이므로 현재 세션에서는 아직 수행하지 않았다.
-- overlay Draft PR #1과 로컬 `smng-ti-pricer`의 `file:../smng-ti-schema`를 고정 Git 태그로 전환하고 각 소비자 검증.
+- 후속 독립 작업: 실제 관측이 쌓인 뒤 집계 시세·환율·조회 응답 계약을 schemaVersion과 SemVer 정책에 맞춰 v1로 설계한다.
+- 새 계약 릴리스는 태그 원본에서 npm tarball을 만들고 release asset SHA-256, 소비자 lockfile integrity, ESM/CJS/JSON Schema import를 동일하게 검증한다.
 
 ## 현재 상태
 
-- 저장소는 기존 로컬 `master`에서 `codex/schema-contract-v1` 브랜치로 격리했다.
-- 원격은 설정되어 있지 않다.
-- 계약·테스트·JSON Schema·toolchain 구현 커밋은 `13c9e36 feat(schema): 관측치와 아이템 DB 공유 계약 확정`이다.
-- 최종 기준은 9파일/42테스트, typecheck/build/schema/pack/audit green이다.
+- 로컬 `codex/schema-contract-v1`은 공개 `origin/main`을 추적한다. 릴리스 계약 HEAD와 `v0.1.0` 대상은 `3da1e88`이다.
+- README는 소비자 설치 경로를 Git/SSH URL이 아닌 release tarball URL로 안내하도록 교정했다.
+- 최종 기준은 9파일/43테스트, typecheck/build/schema/pack/audit green이며 공개 release asset 설치·ESM/CJS/JSON import도 통과했다.
