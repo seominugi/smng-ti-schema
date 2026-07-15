@@ -25,4 +25,11 @@ describe("package contract", () => {
   it("코드 계약을 MIT로 명시한다", () => {
     expect(packageJson.license).toBe("MIT")
   })
+
+  it("공개 GitHub 저장소를 패키지 출처로 명시한다", () => {
+    expect(packageJson.repository).toEqual({
+      type: "git",
+      url: "git+https://github.com/seominugi/smng-ti-schema.git",
+    })
+  })
 })

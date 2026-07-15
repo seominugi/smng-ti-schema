@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "smng-ti 공유 데이터 스키마 (관측치·집계 시세 계약)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seominugi/smng-ti-schema.git"
+  },
   "type": "module",
   "exports": {
     ".": {
