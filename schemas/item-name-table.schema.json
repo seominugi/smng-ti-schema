@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "number",
+      "const": 1
+    },
+    "source": {
+      "type": "string",
+      "const": "tlidb.com"
+    },
+    "attribution": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500
+    },
+    "gameSeason": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 32
+    },
+    "generatedAt": {
+      "type": "integer",
+      "exclusiveMinimum": 0,
+      "maximum": 9007199254740991
+    },
+    "locales": {
+      "allOf": [
+        {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "string",
+              "const": "ko"
+            },
+            {
+              "type": "string",
+              "const": "en"
+            }
+          ],
+          "items": {
+            "not": {}
+          }
+        },
+        {
+          "minItems": 2,
+          "maxItems": 2,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "ko",
+              "en"
+            ]
+          }
+        }
+      ]
+    },
+    "items": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[1-9]\\d*$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "ko": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "en": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "material",
+              "equipment",
+              "currency",
+              "prism",
+              "card"
+            ]
+          },
+          "isCurrency": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "ko",
+          "en",
+          "type",
+          "isCurrency"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "source",
+    "attribution",
+    "gameSeason",
+    "generatedAt",
+    "locales",
+    "items"
+  ],
+  "additionalProperties": false,
+  "$id": "urn:smng-ti-schema:v1:item-name-table",
+  "title": "item-name-table",
+  "description": "ConfigBaseId를 KO/EN 표시 이름과 아이템 메타데이터로 매핑하는 정적 테이블"
+}

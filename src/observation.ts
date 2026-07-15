@@ -4,30 +4,35 @@ import { z } from "zod"
 export const LocaleSchema = z.enum(["ko", "en"])
 export const ObservationSourceSchema = z.enum(["xchg_search"])
 
-export const ObservedItemSchema = z.object({ configBaseId: z.number().int() }).strict()
+const PositiveSafeIntegerSchema = z.number().int().positive().max(Number.MAX_SAFE_INTEGER)
+const BoundedLabelSchema = z.string().min(1).max(64)
 
-export const ObservedPriceSchema = z.object({
-  currency: z.number().int(),
-  unitPrices: z.array(z.number()),   // 오름차순 리스팅가 원본 배열(보존)
-  ref: z.number(),
-}).strict()
+export const ObservedItemSchema = z.strictObject({
+  configBaseId: PositiveSafeIntegerSchema,
+})
 
-export const ObservationClientSchema = z.object({
-  id: z.string(),        // 익명 uuid
-  version: z.string(),
-}).strict()
+export const ObservedPriceSchema = z.strictObject({
+  currency: PositiveSafeIntegerSchema,
+  unitPrices: z.array(z.number().positive().finite()).min(1).max(1_000),
+  ref: z.number().positive().finite(),
+})
 
-export const PriceObservationSchema = z.object({
+export const ObservationClientSchema = z.strictObject({
+  id: z.uuid({ version: "v4" }),
+  version: z.string().min(1).max(32).regex(/^[0-9A-Za-z][0-9A-Za-z.+-]*$/),
+})
+
+export const PriceObservationSchema = z.strictObject({
   schemaVersion: z.literal(1),
-  observedAt: z.number().int(),
-  gameVersion: z.string(),
+  observedAt: PositiveSafeIntegerSchema,
+  gameVersion: BoundedLabelSchema,
   locale: LocaleSchema,
-  region: z.string(),
+  region: z.string().min(1).max(32),
   source: ObservationSourceSchema,
   item: ObservedItemSchema,
   price: ObservedPriceSchema,
   client: ObservationClientSchema,
-}).strict()
+})
 
 export type Locale = z.infer<typeof LocaleSchema>
 export type ObservationSource = z.infer<typeof ObservationSourceSchema>

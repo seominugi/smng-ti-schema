@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "observedAt": 1752300000000,
+  "gameVersion": "SS12",
+  "locale": "ko",
+  "region": "kr",
+  "source": "xchg_search",
+  "item": { "configBaseId": 5028 },
+  "price": { "currency": 100300, "unitPrices": [], "ref": 1 },
+  "client": { "id": "account-name", "version": "0.1.0" },
+  "accountName": "must-not-leak"
+}

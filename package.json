@@ -2,10 +2,40 @@
   "name": "smng-ti-schema",
   "version": "0.1.0",
   "description": "smng-ti 공유 데이터 스키마 (관측치·집계 시세 계약)",
+  "license": "MIT",
   "type": "module",
-  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js", "require": "./dist/index.cjs" } },
-  "files": ["dist"],
-  "scripts": { "build": "tsup", "test": "vitest run", "test:watch": "vitest", "typecheck": "tsc --noEmit" },
-  "dependencies": { "zod": "^3.23.8" },
-  "devDependencies": { "typescript": "^5.5.4", "vitest": "^2.0.5", "tsup": "^8.2.4", "@types/node": "^22.5.0" }
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./schemas/price-observation.json": "./schemas/price-observation.schema.json",
+    "./schemas/item-name-table.json": "./schemas/item-name-table.schema.json"
+  },
+  "files": [
+    "dist",
+    "schemas"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "schemas": "npm run build && npm run schemas:emit",
+    "schemas:emit": "node scripts/emit-json-schemas.mjs",
+    "prepare": "npm run build && npm run schemas:emit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "validate:itemdb": "npm run build && node scripts/validate-contract.mjs itemdb",
+    "validate:observation": "npm run build && node scripts/validate-contract.mjs observation"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "ajv": "^8.20.0",
+    "tsdown": "^0.22.8",
+    "typescript": "^5.5.4",
+    "vitest": "^4.1.10"
+  }
 }

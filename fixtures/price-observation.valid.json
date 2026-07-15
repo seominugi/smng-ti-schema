@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "observedAt": 1752300000000,
+  "gameVersion": "SS12",
+  "locale": "ko",
+  "region": "kr",
+  "source": "xchg_search",
+  "item": { "configBaseId": 5028 },
+  "price": { "currency": 100300, "unitPrices": [1, 2, 2.5], "ref": 1 },
+  "client": { "id": "2f1cde8d-d6a8-4d5e-9d13-6b3bf85518dd", "version": "0.1.0" }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": "tlidb.com",
+  "attribution": "Item names are Torchlight: Infinite official in-game localization; catalog compiled from tlidb.com (community wiki).",
+  "gameSeason": "SS12",
+  "generatedAt": 1784054689133,
+  "locales": ["ko", "en"],
+  "items": {
+    "5028": { "ko": "이계의 메아리", "en": "Netherrealm resonance", "type": "material", "isCurrency": false },
+    "71001": { "ko": "근원의 추억", "en": "Memory of Origin", "type": "equipment", "isCurrency": false },
+    "100200": { "ko": "최초의 불꽃 가루", "en": "Flame Sand", "type": "material", "isCurrency": false },
+    "100300": { "ko": "최초의 불꽃 결정", "en": "Flame Elementium", "type": "material", "isCurrency": true },
+    "330001": { "ko": "눈꽃 종이 조각", "en": "Snowpaper Fragment", "type": "material", "isCurrency": false }
+  }
+}
