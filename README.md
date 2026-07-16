@@ -2,33 +2,37 @@
 
 `smng-ti-overlay`, `smng-ti-pricer`, 이후 `smng-ti-economy`가 공유하는 Torchlight: Infinite 데이터 계약 패키지다. TypeScript 타입을 따로 손으로 유지하지 않고 Zod 스키마에서 타입과 JSON Schema Draft 2020-12를 함께 만든다.
 
-현재 0.1.0의 우선 계약은 다음 두 가지다.
+현재 0.2.0의 우선 계약은 다음 세 영역이다.
 
 - `PriceObservationSchema`: 옵트인 거래소 검색 관측치(오버레이 → pricer)
 - `ItemNameTableSchema`: ConfigBaseId → KO/EN 이름·타입 정적 테이블
+- `ItemsResponseSchema`·`ItemResponseSchema`·`CurrencyRatesResponseSchema`: fresh/stale 상태를 포함하는 private 시세 조회 응답
 
-기존 `ItemAggregateSchema`·`CurrencyRateSchema`는 향후 집계 시세 서빙 계약을 위해 유지하지만, 아직 해당 데이터를 생성하거나 서빙하는 런타임은 없다.
+`ItemAggregateSchema`·`CurrencyRateSchema`의 기존 shape와 데이터 `schemaVersion: 1`은 0.2.0에서도 유지한다.
 
 ## 사용
 
 GitHub 릴리스 태그를 사용하는 소비자는 반드시 버전을 고정한다.
 
 ```powershell
-npm install https://github.com/seominugi/smng-ti-schema/releases/download/v0.1.0/smng-ti-schema-0.1.0.tgz
+npm install https://github.com/seominugi/smng-ti-schema/releases/download/v0.2.0/smng-ti-schema-0.2.0.tgz
 ```
 
-`v0.1.0` 태그에서 `npm pack`으로 만든 GitHub Release tarball에는 ESM/CJS/DTS와 JSON Schema가 포함된다. 소비자는 이 불변 URL과 lockfile integrity를 함께 고정해 Git 도구나 SSH 키 없이 설치한다.
+`v0.2.0` 태그에서 `npm pack`으로 만든 GitHub Release tarball에는 ESM/CJS/DTS와 JSON Schema가 포함된다. 소비자는 이 불변 URL과 lockfile integrity를 함께 고정해 Git 도구나 SSH 키 없이 설치한다.
 
 ```ts
 import {
   ItemNameTableSchema,
+  ItemsResponseSchema,
   PriceObservationSchema,
   type ItemNameTable,
+  type ItemsResponse,
   type PriceObservation,
 } from "smng-ti-schema"
 
 const observation: PriceObservation = PriceObservationSchema.parse(input)
 const itemdb: ItemNameTable = ItemNameTableSchema.parse(table)
+const prices: ItemsResponse = ItemsResponseSchema.parse(response)
 ```
 
 비 TypeScript 소비자는 패키지에 포함된 JSON Schema를 사용한다.
@@ -39,6 +43,9 @@ import observationSchema from "smng-ti-schema/schemas/price-observation.json" wi
 
 - `smng-ti-schema/schemas/price-observation.json`
 - `smng-ti-schema/schemas/item-name-table.json`
+- `smng-ti-schema/schemas/items-response.json`
+- `smng-ti-schema/schemas/item-response.json`
+- `smng-ti-schema/schemas/currency-rates-response.json`
 
 ## 관측치 계약
 
@@ -100,6 +107,16 @@ import observationSchema from "smng-ti-schema/schemas/price-observation.json" wi
 ```powershell
 npm run validate:itemdb -- D:\github\smng-ti-overlay\src\itemdb\data\id_name_table.json
 ```
+
+## 시세 조회 응답 계약
+
+조회 응답은 strict `{data,meta}` 구조다. `ItemPriceView`는 기존 `ItemAggregate`와 freshness를, `CurrencyRateView`는 기존 `CurrencyRate`와 freshness를 묶는다. `MarketMeta`에는 `schemaVersion`, `generatedAt`, `gameVersion`, `region`만 들어간다.
+
+- `fresh`: 참조 시각으로부터 900,000ms(15분) 이하
+- `stale`: 900,000ms 초과 86,400,000ms(24시간) 이하
+- `expired`: 응답 enum이 아니다. 서버가 24시간 초과 row를 응답 전에 제외한다.
+
+client UUID, receipt, token, IP, raw payload는 조회 응답 계약에 없으며 strict object 검증으로 거부한다. 통화 fixture의 `7000001`은 환산 경계를 검증하는 synthetic ID이고 실제 게임 통화로 주장하지 않는다. 실제 `100200`은 `최초의 불꽃 가루 / Flame Sand`이며 통화가 아니다.
 
 ## 개발·검증
 

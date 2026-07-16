@@ -5,6 +5,12 @@ const packageJson = JSON.parse(readFileSync(new URL("../package.json", import.me
 const packageLock = JSON.parse(readFileSync(new URL("../package-lock.json", import.meta.url), "utf8"))
 
 describe("package contract", () => {
+  it("market API 계약을 SemVer minor 0.2.0으로 배포한다", () => {
+    expect(packageJson.version).toBe("0.2.0")
+    expect(packageLock.version).toBe("0.2.0")
+    expect(packageLock.packages[""].version).toBe("0.2.0")
+  })
+
   it("코드와 두 JSON Schema를 공개 패키지에 포함한다", () => {
     expect(packageJson.files).toEqual(expect.arrayContaining(["dist", "schemas"]))
     expect(packageJson.exports["."].types).toBe("./dist/index.d.mts")
