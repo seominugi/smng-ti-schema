@@ -12,6 +12,15 @@ describe("package contract", () => {
     expect(packageJson.exports["."].require).toBe("./dist/index.cjs")
     expect(packageJson.exports["./schemas/price-observation.json"]).toBe("./schemas/price-observation.schema.json")
     expect(packageJson.exports["./schemas/item-name-table.json"]).toBe("./schemas/item-name-table.schema.json")
+    expect(packageJson.exports["./schemas/items-response.json"]).toBe(
+      "./schemas/items-response.schema.json",
+    )
+    expect(packageJson.exports["./schemas/item-response.json"]).toBe(
+      "./schemas/item-response.schema.json",
+    )
+    expect(packageJson.exports["./schemas/currency-rates-response.json"]).toBe(
+      "./schemas/currency-rates-response.schema.json",
+    )
   })
 
   it("Git 태그 의존성 설치 시 패키지 산출물을 생성한다", () => {

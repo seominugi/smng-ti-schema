@@ -11,6 +11,9 @@ mkdirSync(outputDirectory, { recursive: true })
 for (const [name, schema] of [
   ["price-observation.schema.json", schemas.priceObservation],
   ["item-name-table.schema.json", schemas.itemNameTable],
+  ["items-response.schema.json", schemas.itemsResponse],
+  ["item-response.schema.json", schemas.itemResponse],
+  ["currency-rates-response.schema.json", schemas.currencyRatesResponse],
 ]) {
   writeFileSync(join(outputDirectory, name), `${JSON.stringify(schema, null, 2)}\n`, "utf8")
 }

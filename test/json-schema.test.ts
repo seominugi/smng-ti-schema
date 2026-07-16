@@ -38,5 +38,10 @@ describe("JSON Schema contracts", () => {
     const generated = toContractJsonSchemas()
     expect(load("../schemas/price-observation.schema.json")).toEqual(generated.priceObservation)
     expect(load("../schemas/item-name-table.schema.json")).toEqual(generated.itemNameTable)
+    expect(load("../schemas/items-response.schema.json")).toEqual(generated.itemsResponse)
+    expect(load("../schemas/item-response.schema.json")).toEqual(generated.itemResponse)
+    expect(load("../schemas/currency-rates-response.schema.json")).toEqual(
+      generated.currencyRatesResponse,
+    )
   })
 })

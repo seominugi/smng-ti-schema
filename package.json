@@ -15,7 +15,10 @@
       "require": "./dist/index.cjs"
     },
     "./schemas/price-observation.json": "./schemas/price-observation.schema.json",
-    "./schemas/item-name-table.json": "./schemas/item-name-table.schema.json"
+    "./schemas/item-name-table.json": "./schemas/item-name-table.schema.json",
+    "./schemas/items-response.json": "./schemas/items-response.schema.json",
+    "./schemas/item-response.json": "./schemas/item-response.schema.json",
+    "./schemas/currency-rates-response.json": "./schemas/currency-rates-response.schema.json"
   },
   "files": [
     "dist",

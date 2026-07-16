@@ -1,0 +1,246 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "rates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "rate": {
+                "type": "object",
+                "properties": {
+                  "schemaVersion": {
+                    "type": "number",
+                    "const": 1
+                  },
+                  "configBaseId": {
+                    "type": "integer",
+                    "minimum": -9007199254740991,
+                    "maximum": 9007199254740991
+                  },
+                  "name": {
+                    "type": "object",
+                    "properties": {
+                      "ko": {
+                        "type": "string"
+                      },
+                      "en": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "ko",
+                      "en"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "ref": {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "type": "number"
+                      },
+                      "method": {
+                        "type": "string",
+                        "enum": [
+                          "p20_low",
+                          "min",
+                          "median"
+                        ]
+                      },
+                      "asOf": {
+                        "type": "integer",
+                        "minimum": -9007199254740991,
+                        "maximum": 9007199254740991
+                      }
+                    },
+                    "required": [
+                      "value",
+                      "method",
+                      "asOf"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "samples": {
+                    "type": "object",
+                    "properties": {
+                      "observationCount": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "listingDepth": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "windowMs": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      }
+                    },
+                    "required": [
+                      "observationCount",
+                      "listingDepth",
+                      "windowMs"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "confidence": {
+                    "type": "string",
+                    "enum": [
+                      "high",
+                      "medium",
+                      "low"
+                    ]
+                  },
+                  "history": {
+                    "type": "object",
+                    "properties": {
+                      "resolution": {
+                        "type": "string"
+                      },
+                      "windowMs": {
+                        "type": "integer",
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "points": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "ts": {
+                              "type": "integer",
+                              "minimum": -9007199254740991,
+                              "maximum": 9007199254740991
+                            },
+                            "value": {
+                              "type": "number"
+                            },
+                            "n": {
+                              "type": "integer",
+                              "minimum": 0,
+                              "maximum": 9007199254740991
+                            }
+                          },
+                          "required": [
+                            "ts",
+                            "value",
+                            "n"
+                          ],
+                          "additionalProperties": false
+                        }
+                      }
+                    },
+                    "required": [
+                      "resolution",
+                      "windowMs",
+                      "points"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "schemaVersion",
+                  "configBaseId",
+                  "name",
+                  "ref",
+                  "samples",
+                  "confidence",
+                  "history"
+                ],
+                "additionalProperties": false
+              },
+              "freshness": {
+                "type": "object",
+                "properties": {
+                  "state": {
+                    "type": "string",
+                    "enum": [
+                      "fresh",
+                      "stale"
+                    ]
+                  },
+                  "ageMs": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "freshForMs": {
+                    "type": "number",
+                    "const": 900000
+                  },
+                  "expiresAfterMs": {
+                    "type": "number",
+                    "const": 86400000
+                  }
+                },
+                "required": [
+                  "state",
+                  "ageMs",
+                  "freshForMs",
+                  "expiresAfterMs"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "rate",
+              "freshness"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "rates"
+      ],
+      "additionalProperties": false
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "number",
+          "const": 1
+        },
+        "generatedAt": {
+          "type": "integer",
+          "exclusiveMinimum": 0,
+          "maximum": 9007199254740991
+        },
+        "gameVersion": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64
+        },
+        "region": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "generatedAt",
+        "gameVersion",
+        "region"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "data",
+    "meta"
+  ],
+  "additionalProperties": false,
+  "$id": "urn:smng-ti-schema:v1:currency-rates-response",
+  "title": "currency-rates-response",
+  "description": "FE 기준 직접 통화 환율 목록 응답"
+}
