@@ -4,6 +4,8 @@ interface: Codex
 branch: codex/schema-contract-v1 (origin/main 추적, 공개 v0.1.0 릴리스)
 ---
 
+> **생태계 지도**: TLI 트래커 생태계(4 repo) 역할·데이터 흐름·운영 절차 정본 — sibling repo `smng-ti-overlay`(private)의 `docs/생태계-지도.md`
+
 ## 현재 목표
 
 **[완료] 0.1.0 관측치·itemdb 공유 계약을 공개 저장소와 GitHub Release로 배포했다.** overlay와 pricer는 Git/SSH가 아닌 불변 release tarball URL과 lockfile integrity로 이 계약을 소비한다. 다음 독립 작업은 실제 관측 수집 운영 정책과 집계·조회 계약 v1이다.
