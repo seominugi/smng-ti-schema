@@ -27,7 +27,8 @@ describe("ItemAggregateSchema", () => {
 describe("CurrencyRateSchema", () => {
   it("유효 환율 통과", () => {
     const rate = {
-      schemaVersion: 1, configBaseId: 100200, name: { ko: "크리스탈", en: "Crystal" },
+      schemaVersion: 1, configBaseId: 7_000_001,
+      name: { ko: "합성 테스트 통화", en: "Synthetic Test Currency" },
       ref: { value: 0.8, method: "p20_low", asOf: 1752300000000 },
       samples: { observationCount: 30, listingDepth: 120, windowMs: 3600000 }, confidence: "high",
       history: { resolution: "5m", windowMs: 3600000, points: [] },

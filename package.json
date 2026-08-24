@@ -1,6 +1,6 @@
 {
   "name": "smng-ti-schema",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "smng-ti 공유 데이터 스키마 (관측치·집계 시세 계약)",
   "license": "MIT",
   "repository": {
@@ -15,7 +15,10 @@
       "require": "./dist/index.cjs"
     },
     "./schemas/price-observation.json": "./schemas/price-observation.schema.json",
-    "./schemas/item-name-table.json": "./schemas/item-name-table.schema.json"
+    "./schemas/item-name-table.json": "./schemas/item-name-table.schema.json",
+    "./schemas/items-response.json": "./schemas/items-response.schema.json",
+    "./schemas/item-response.json": "./schemas/item-response.schema.json",
+    "./schemas/currency-rates-response.json": "./schemas/currency-rates-response.schema.json"
   },
   "files": [
     "dist",

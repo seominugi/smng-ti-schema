@@ -1,0 +1,52 @@
+{
+  "data": {
+    "items": [
+      {
+        "aggregate": {
+          "schemaVersion": 1,
+          "configBaseId": 5028,
+          "name": {
+            "ko": "이계의 메아리",
+            "en": "Netherrealm resonance"
+          },
+          "category": "material",
+          "currency": 100300,
+          "ref": {
+            "value": 1.25,
+            "method": "p20_low",
+            "asOf": 1800000000000
+          },
+          "samples": {
+            "observationCount": 12,
+            "listingDepth": 60,
+            "windowMs": 3600000
+          },
+          "confidence": "high",
+          "history": {
+            "resolution": "5m",
+            "windowMs": 3600000,
+            "points": []
+          },
+          "change": {
+            "pct1h": null,
+            "pct24h": null
+          },
+          "volume": null,
+          "trend": null
+        },
+        "freshness": {
+          "state": "fresh",
+          "ageMs": 0,
+          "freshForMs": 900000,
+          "expiresAfterMs": 86400000
+        }
+      }
+    ]
+  },
+  "meta": {
+    "schemaVersion": 1,
+    "generatedAt": 1800000000000,
+    "gameVersion": "SS12",
+    "region": "kr"
+  }
+}

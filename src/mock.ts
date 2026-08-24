@@ -1,8 +1,21 @@
 import type { ItemAggregate, CurrencyRate } from "./aggregate"
 import type { ItemsIndex, CurrencyRates } from "./envelope"
+import type { CurrencyRatesResponse, ItemResponse, ItemsResponse } from "./market-api"
 import { FE_CURRENCY_ID, CONTRACT_SCHEMA_VERSION } from "./constants"
 
 const NOW = 1752300000000
+const MOCK_FRESHNESS = {
+  state: "fresh",
+  ageMs: 0,
+  freshForMs: 900_000,
+  expiresAfterMs: 86_400_000,
+} as const
+const MOCK_META = {
+  schemaVersion: 1,
+  generatedAt: NOW,
+  gameVersion: "SS12",
+  region: "kr",
+} as const
 
 function mockItem(i: number): ItemAggregate {
   const base = 1 + (i % 10) * 0.5
@@ -41,6 +54,33 @@ export function mockCurrencyRates(): CurrencyRates {
   })
   return {
     schemaVersion: CONTRACT_SCHEMA_VERSION, generatedAt: NOW, base: FE_CURRENCY_ID,
-    rates: [ rate(100200, "크리스탈", "Crystal", 0.8) ],
+    rates: [ rate(7_000_001, "합성 테스트 통화", "Synthetic Test Currency", 0.8) ],
+  }
+}
+
+export function mockItemsResponse(count = 20): ItemsResponse {
+  return {
+    data: {
+      items: mockItemsIndex(count).items.map((aggregate) => ({
+        aggregate,
+        freshness: MOCK_FRESHNESS,
+      })),
+    },
+    meta: MOCK_META,
+  }
+}
+
+export function mockItemResponse(): ItemResponse {
+  return {
+    data: { item: mockItemsResponse(1).data.items[0]! },
+    meta: MOCK_META,
+  }
+}
+
+export function mockCurrencyRatesResponse(): CurrencyRatesResponse {
+  const rate = mockCurrencyRates().rates[0]!
+  return {
+    data: { rates: [{ rate, freshness: MOCK_FRESHNESS }] },
+    meta: MOCK_META,
   }
 }

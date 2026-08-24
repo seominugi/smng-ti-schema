@@ -2,8 +2,8 @@
   "schemaVersion": 1, "generatedAt": 1752300000000, "base": 100300,
   "rates": [
     {
-      "schemaVersion": 1, "configBaseId": 100200,
-      "name": { "ko": "크리스탈", "en": "Crystal" },
+      "schemaVersion": 1, "configBaseId": 7000001,
+      "name": { "ko": "합성 테스트 통화", "en": "Synthetic Test Currency" },
       "ref": { "value": 0.8, "method": "p20_low", "asOf": 1752300000000 },
       "samples": { "observationCount": 30, "listingDepth": 120, "windowMs": 3600000 },
       "confidence": "high",
