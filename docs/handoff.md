@@ -1,12 +1,14 @@
 ---
-timestamp: 2026-07-16T00:18:55+09:00
+timestamp: 2026-09-20T03:40:00+09:00
 interface: Codex
-branch: codex/schema-contract-v1 (origin/main 추적, 공개 v0.1.0 릴리스)
+branch: codex/source-available-license (origin/main에서 분기)
 ---
 
 > **생태계 지도**: TLI 트래커 생태계(4 repo) 역할·데이터 흐름·운영 절차 정본 — sibling repo `smng-ti-overlay`(private)의 `docs/생태계-지도.md`
 
 ## 현재 목표
+
+**[완료] 공개 계약을 source-available로 전환했다.** 투명성 검토를 위한 열람·분석·일시적 로컬 실행은 허용하되, 제3자의 재사용·변형·재배포·서비스화는 사전 서면 허락 대상으로 둔다. `v0.2.0` 이하 태그의 기존 MIT 권리는 보존하고, 전환 이후 npm 공개 게시는 `private: true`로 차단한다.
 
 **[완료] 0.1.0 관측치·itemdb 공유 계약을 공개 저장소와 GitHub Release로 배포했다.** overlay와 pricer는 Git/SSH가 아닌 불변 release tarball URL과 lockfile integrity로 이 계약을 소비한다. 다음 독립 작업은 실제 관측 수집 운영 정책과 집계·조회 계약 v1이다.
 
@@ -18,6 +20,14 @@ branch: codex/schema-contract-v1 (origin/main 추적, 공개 v0.1.0 릴리스)
 - 비밀값·PII를 계약에 추가하지 않는다. 관측치는 익명 UUID v4와 strict object만 허용한다.
 
 ## 완료된 작업
+
+### 소스 투명성 라이선스 전환 (2026-09-20)
+
+- 한·영 병기 `Seominugi Transparency Source License 1.0`, README 상단 경고, `THIRD_PARTY_NOTICES.md`를 추가했다.
+- 패키지 메타데이터를 `private: true`, `SEE LICENSE IN LICENSE`로 바꾸고 저장소 URL을 현재 이름 `ti-schema`로 바로잡았다.
+- Git 태그 `v0.2.0` 이하에 이미 부여된 MIT 권리는 소급 취소하지 않으며, 전환 커밋 이후 스냅샷부터 새 조건을 적용한다.
+- 기준선 검증: 테스트 10파일·51개, typecheck, build 통과. npm 감사의 기존 취약점 5건(중간 3·높음 2)은 이번 범위에서 자동 수정하지 않았다.
+- 독립 계약 검토에서 종전 권리와 종료 조항 충돌, 패키지 계약 테스트, TITrack/tlidb 및 번들 고지 누락을 발견해 모두 수정했다. 최종 원격 통합 상태는 GitHub PR 이력을 기준으로 확인한다.
 
 ### 공개 v0.1.0 릴리스와 소비자 고정 (2026-07-16)
 
@@ -43,6 +53,8 @@ branch: codex/schema-contract-v1 (origin/main 추적, 공개 v0.1.0 릴리스)
 - 새 계약 릴리스는 태그 원본에서 npm tarball을 만들고 release asset SHA-256, 소비자 lockfile integrity, ESM/CJS/JSON Schema import를 동일하게 검증한다.
 
 ## 현재 상태
+
+- **라이선스 전환 (2026-09-20)**: 라이선스·README·패키지 메타데이터·제3자 고지를 일치시켰다. 계약 스키마 자체는 변경하지 않았고, 패키지 메타데이터 회귀 테스트만 새 정책에 맞춰 갱신했다.
 
 - 로컬 `codex/schema-contract-v1`은 공개 `origin/main`을 추적한다. 릴리스 계약 HEAD와 `v0.1.0` 대상은 `3da1e88`이다.
 - README는 소비자 설치 경로를 Git/SSH URL이 아닌 release tarball URL로 안내하도록 교정했다.
