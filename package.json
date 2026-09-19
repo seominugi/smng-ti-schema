@@ -2,10 +2,11 @@
   "name": "smng-ti-schema",
   "version": "0.2.0",
   "description": "smng-ti 공유 데이터 스키마 (관측치·집계 시세 계약)",
-  "license": "MIT",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seominugi/smng-ti-schema.git"
+    "url": "git+https://github.com/seominugi/ti-schema.git"
   },
   "type": "module",
   "exports": {
@@ -22,7 +23,8 @@
   },
   "files": [
     "dist",
-    "schemas"
+    "schemas",
+    "THIRD_PARTY_NOTICES.md"
   ],
   "scripts": {
     "build": "tsdown",

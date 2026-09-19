@@ -11,8 +11,10 @@ describe("package contract", () => {
     expect(packageLock.packages[""].version).toBe("0.2.0")
   })
 
-  it("코드와 두 JSON Schema를 공개 패키지에 포함한다", () => {
-    expect(packageJson.files).toEqual(expect.arrayContaining(["dist", "schemas"]))
+  it("코드·JSON Schema·제3자 고지를 릴리스 패키지에 포함한다", () => {
+    expect(packageJson.files).toEqual(
+      expect.arrayContaining(["dist", "schemas", "THIRD_PARTY_NOTICES.md"]),
+    )
     expect(packageJson.exports["."].types).toBe("./dist/index.d.mts")
     expect(packageJson.exports["."].import).toBe("./dist/index.mjs")
     expect(packageJson.exports["."].require).toBe("./dist/index.cjs")
@@ -37,14 +39,15 @@ describe("package contract", () => {
     expect(Object.keys(packageLock.packages)).not.toContain("../smng-ti-overlay")
   })
 
-  it("코드 계약을 MIT로 명시한다", () => {
-    expect(packageJson.license).toBe("MIT")
+  it("공개 npm 게시를 막고 저장소 LICENSE를 계약 정본으로 지정한다", () => {
+    expect(packageJson.private).toBe(true)
+    expect(packageJson.license).toBe("SEE LICENSE IN LICENSE")
   })
 
   it("공개 GitHub 저장소를 패키지 출처로 명시한다", () => {
     expect(packageJson.repository).toEqual({
       type: "git",
-      url: "git+https://github.com/seominugi/smng-ti-schema.git",
+      url: "git+https://github.com/seominugi/ti-schema.git",
     })
   })
 })

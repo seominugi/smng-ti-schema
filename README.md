@@ -1,5 +1,16 @@
 # smng-ti-schema
 
+> [!IMPORTANT]
+> 이 저장소는 코드와 데이터 계약의 투명성·검토를 위해 공개되어 있으며
+> **오픈소스가 아닙니다**. 열람·분석과 검토 목적의 일시적 로컬 빌드/실행만
+> 허용됩니다. 소스나 변형물을 제품·서비스에 재사용하거나 배포·호스팅하려면
+> 저작권자의 사전 서면 허락이 필요합니다. 자세한 조건은 [LICENSE](LICENSE)를
+> 확인하세요.
+>
+> This repository is **source-available, not open source**. Viewing, analysis,
+> and temporary local build/run for review are permitted. Reuse, modification,
+> distribution, or hosting requires prior written permission. See [LICENSE](LICENSE).
+
 `smng-ti-overlay`, `smng-ti-pricer`, 이후 `smng-ti-economy`가 공유하는 Torchlight: Infinite 데이터 계약 패키지다. TypeScript 타입을 따로 손으로 유지하지 않고 Zod 스키마에서 타입과 JSON Schema Draft 2020-12를 함께 만든다.
 
 현재 0.2.0의 우선 계약은 다음 세 영역이다.
@@ -140,4 +151,11 @@ npm pack --dry-run
 
 ## 출처와 라이선스
 
-패키지 코드와 JSON Schema는 MIT 라이선스다. 아이템 이름은 Torchlight: Infinite 게임 로컬라이제이션이며, 카탈로그 출처와 귀속은 각 itemdb 메타 헤더에 별도로 보존한다. 이 저장소는 게임 자산의 권리를 재라이선스하지 않는다.
+라이선스 전환 커밋 이후의 저장소 스냅샷은
+[Seominugi Transparency Source License 1.0](LICENSE)을 따른다. Git 태그
+`v0.2.0` 이하에 실제로 포함된 자료는 각 태그에 동봉된 MIT License로 계속
+이용할 수 있으며, 이미 부여된 권리는 소급 변경되지 않는다. 아이템 이름은
+Torchlight: Infinite 게임 로컬라이제이션이며, 카탈로그 출처와 귀속은 각
+itemdb 메타 헤더에 별도로 보존한다. 이 저장소는 게임 자산의 권리를
+재라이선스하지 않는다. 자세한 제3자 고지는
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)를 참조한다.
